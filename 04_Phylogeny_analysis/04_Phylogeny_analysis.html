@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>04_Phylogeny_analysis.html</title>
+  <meta name="generator" content="Haroopad 0.13.1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>div.oembedall-githubrepos{border:1px solid #DDD;border-radius:4px;list-style-type:none;margin:0 0 10px;padding:8px 10px 0;font:13.34px/1.4 helvetica,arial,freesans,clean,sans-serif;width:452px;background-color:#fff}div.oembedall-githubrepos .oembedall-body{background:-moz-linear-gradient(center top,#FAFAFA,#EFEFEF);background:-webkit-gradient(linear,left top,left bottom,from(#FAFAFA),to(#EFEFEF));border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top:1px solid #EEE;margin-left:-10px;margin-top:8px;padding:5px 10px;width:100%}div.oembedall-githubrepos h3{font-size:14px;margin:0;padding-left:18px;white-space:nowrap}div.oembedall-githubrepos p.oembedall-description{color:#444;font-size:12px;margin:0 0 3px}div.oembedall-githubrepos p.oembedall-updated-at{color:#888;font-size:11px;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats{border:none;float:right;font-size:11px;font-weight:700;padding-left:15px;position:relative;z-index:5;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats li{border:none;color:#666;display:inline-block;list-style-type:none;margin:0!important}div.oembedall-githubrepos ul.oembedall-repo-stats li a{background-color:transparent;border:none;color:#666!important;background-position:5px -2px;background-repeat:no-repeat;border-left:1px solid #DDD;display:inline-block;height:21px;line-height:21px;padding:0 5px 0 23px}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a{border-left:medium none;margin-right:-3px}div.oembedall-githubrepos ul.oembedall-repo-stats li a:hover{background:5px -27px no-repeat #4183C4;color:#FFF!important;text-decoration:none}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a:hover{border-bottom-left-radius:3px;border-top-left-radius:3px}ul.oembedall-repo-stats li:last-child a:hover{border-bottom-right-radius:3px;border-top-right-radius:3px}span.oembedall-closehide{background-color:#aaa;border-radius:2px;cursor:pointer;margin-right:3px}div.oembedall-container{margin-top:5px;text-align:left}.oembedall-ljuser{font-weight:700}.oembedall-ljuser img{vertical-align:bottom;border:0;padding-right:1px}.oembedall-stoqembed{border-bottom:1px dotted #999;float:left;overflow:hidden;width:730px;line-height:1;background:#FFF;color:#000;font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;font-size:80%;text-align:left;margin:0;padding:0}.oembedall-stoqembed a{color:#07C;text-decoration:none;margin:0;padding:0}.oembedall-stoqembed a:hover{text-decoration:underline}.oembedall-stoqembed a:visited{color:#4A6B82}.oembedall-stoqembed h3{font-family:Trebuchet MS,Liberation Sans,DejaVu Sans,sans-serif;font-size:130%;font-weight:700;margin:0;padding:0}.oembedall-stoqembed .oembedall-reputation-score{color:#444;font-size:120%;font-weight:700;margin-right:2px}.oembedall-stoqembed .oembedall-user-info{height:35px;width:185px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-gravatar32{float:left;height:32px;width:32px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-details{float:left;margin-left:5px;overflow:hidden;white-space:nowrap;width:145px}.oembedall-stoqembed .oembedall-question-hyperlink{font-weight:700}.oembedall-stoqembed .oembedall-stats{background:#EEE;margin:0 0 0 7px;padding:4px 7px 6px;width:58px}.oembedall-stoqembed .oembedall-statscontainer{float:left;margin-right:8px;width:86px}.oembedall-stoqembed .oembedall-votes{color:#555;padding:0 0 7px;text-align:center}.oembedall-stoqembed .oembedall-vote-count-post{font-size:240%;color:#808185;display:block;font-weight:700}.oembedall-stoqembed .oembedall-views{color:#999;padding-top:4px;text-align:center}.oembedall-stoqembed .oembedall-status{margin-top:-3px;padding:4px 0;text-align:center;background:#75845C;color:#FFF}.oembedall-stoqembed .oembedall-status strong{color:#FFF;display:block;font-size:140%}.oembedall-stoqembed .oembedall-summary{float:left;width:635px}.oembedall-stoqembed .oembedall-excerpt{line-height:1.2;margin:0;padding:0 0 5px}.oembedall-stoqembed .oembedall-tags{float:left;line-height:18px}.oembedall-stoqembed .oembedall-tags a:hover{text-decoration:none}.oembedall-stoqembed .oembedall-post-tag{background-color:#E0EAF1;border-bottom:1px solid #3E6D8E;border-right:1px solid #7F9FB6;color:#3E6D8E;font-size:90%;line-height:2.4;margin:2px 2px 2px 0;padding:3px 4px;text-decoration:none;white-space:nowrap}.oembedall-stoqembed .oembedall-post-tag:hover{background-color:#3E6D8E;border-bottom:1px solid #37607D;border-right:1px solid #37607D;color:#E0EAF1}.oembedall-stoqembed .oembedall-fr{float:right}.oembedall-stoqembed .oembedall-statsarrow{background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.png?v=3);background-repeat:no-repeat;overflow:hidden;background-position:0 -435px;float:right;height:13px;margin-top:12px;width:7px}.oembedall-facebook1{border:1px solid #1A3C6C;padding:0;font:13.34px/1.4 verdana;width:500px}.oembedall-facebook2{background-color:#627add}.oembedall-facebook2 a{color:#e8e8e8;text-decoration:none}.oembedall-facebookBody{background-color:#fff;vertical-align:top;padding:5px}.oembedall-facebookBody .contents{display:inline-block;width:100%}.oembedall-facebookBody div img{float:left;margin-right:5px}div.oembedall-lanyard{-webkit-box-shadow:none;-webkit-transition-delay:0s;-webkit-transition-duration:.4000000059604645s;-webkit-transition-property:width;-webkit-transition-timing-function:cubic-bezier(0.42,0,.58,1);background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;border-width:0;box-shadow:none;color:#112644;display:block;float:left;font-family:'Trebuchet MS',Trebuchet,sans-serif;font-size:16px;height:253px;line-height:19px;margin:0;max-width:none;min-height:0;outline:#112644 0;overflow-x:visible;overflow-y:visible;padding:0;position:relative;text-align:left;vertical-align:baseline;width:804px}div.oembedall-lanyard .tagline{font-size:1.5em}div.oembedall-lanyard .wrapper{overflow:hidden;clear:both}div.oembedall-lanyard .split{float:left;display:inline}div.oembedall-lanyard .prominent-place .flag:active,div.oembedall-lanyard .prominent-place .flag:focus,div.oembedall-lanyard .prominent-place .flag:hover,div.oembedall-lanyard .prominent-place .flag:link,div.oembedall-lanyard .prominent-place .flag:visited{float:left;display:block;width:48px;height:48px;position:relative;top:-5px;margin-right:10px}div.oembedall-lanyard .place-context{font-size:.889em}div.oembedall-lanyard .prominent-place .sub-place{display:block}div.oembedall-lanyard .prominent-place{font-size:1.125em;line-height:1.1em;font-weight:400}div.oembedall-lanyard .main-date{color:#8CB4E0;font-weight:700;line-height:1.1}div.oembedall-lanyard .first{width:48.57%;margin:0 0 0 2.857%}.mermaid .label{color:#333}.node circle,.node polygon,.node rect{fill:#cde498;stroke:#13540c;stroke-width:1px}.edgePath .path{stroke:green;stroke-width:1.5px}.cluster rect{fill:#cdffb2;rx:40;stroke:#6eaa49;stroke-width:1px}.cluster text{fill:#333}.actor{stroke:#13540c;fill:#cde498}text.actor{fill:#000;stroke:none}.actor-line{stroke:grey}.messageLine0{stroke-width:1.5;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#333}.messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#arrowhead{fill:#333}#crosshead path{fill:#333!important;stroke:#333!important}.messageText{fill:#333;stroke:none}.labelBox{stroke:#326932;fill:#cde498}.labelText,.loopText{fill:#000;stroke:none}.loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#326932}.note{stroke:#6eaa49;fill:#fff5ad}.noteText{fill:#000;stroke:none;font-family:'trebuchet ms',verdana,arial;font-size:14px}.section{stroke:none;opacity:.2}.section0,.section2{fill:#6eaa49}.section1,.section3{fill:#fff;opacity:.2}.sectionTitle0,.sectionTitle1,.sectionTitle2,.sectionTitle3{fill:#333}.sectionTitle{text-anchor:start;font-size:11px;text-height:14px}.grid .tick{stroke:lightgrey;opacity:.3;shape-rendering:crispEdges}.grid path{stroke-width:0}.today{fill:none;stroke:red;stroke-width:2px}.task{stroke-width:2}.taskText{text-anchor:middle;font-size:11px}.taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}.taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}.taskText0,.taskText1,.taskText2,.taskText3{fill:#fff}.task0,.task1,.task2,.task3{fill:#487e3a;stroke:#13540c}.taskTextOutside0,.taskTextOutside1,.taskTextOutside2,.taskTextOutside3{fill:#000}.active0,.active1,.active2,.active3{fill:#cde498;stroke:#13540c}.activeText0,.activeText1,.activeText2,.activeText3{fill:#000!important}.done0,.done1,.done2,.done3{stroke:grey;fill:lightgrey;stroke-width:2}.doneText0,.doneText1,.doneText2,.doneText3{fill:#000!important}.crit0,.crit1,.crit2,.crit3{stroke:#f88;fill:red;stroke-width:2}.activeCrit0,.activeCrit1,.activeCrit2,.activeCrit3{stroke:#f88;fill:#cde498;stroke-width:2}.doneCrit0,.doneCrit1,.doneCrit2,.doneCrit3{stroke:#f88;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}.activeCritText0,.activeCritText1,.activeCritText2,.activeCritText3,.doneCritText0,.doneCritText1,.doneCritText2,.doneCritText3{fill:#000!important}.titleText{text-anchor:middle;font-size:18px;fill:#000}text{font-family:'trebuchet ms',verdana,arial;font-size:14px}html{height:100%}body{margin:0!important;padding:5px 20px 26px!important;background-color:#fff;font-family:"Lucida Grande","Segoe UI","Apple SD Gothic Neo","Malgun Gothic","Lucida Sans Unicode",Helvetica,Arial,sans-serif;font-size:.9em;overflow-x:hidden;overflow-y:auto}br,h1,h2,h3,h4,h5,h6{clear:both}hr.page{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x;border:0;height:3px;padding:0}hr.underscore{border-top-style:dashed!important}body >:first-child{margin-top:0!important}img.plugin{box-shadow:0 1px 3px rgba(0,0,0,.1);border-radius:3px}iframe{border:0}figure{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0}kbd{border:1px solid #aaa;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-moz-box-shadow:1px 2px 2px #ddd;-webkit-box-shadow:1px 2px 2px #ddd;box-shadow:1px 2px 2px #ddd;background-color:#f9f9f9;background-image:-moz-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-o-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-webkit-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:linear-gradient(top,#eee,#f9f9f9,#eee);padding:1px 3px;font-family:inherit;font-size:.85em}.oembeded .oembed_photo{display:inline-block}img[data-echo]{margin:25px 0;width:100px;height:100px;background:url(../img/ajax.gif) center center no-repeat #fff}.spinner{display:inline-block;width:10px;height:10px;margin-bottom:-.1em;border:2px solid rgba(0,0,0,.5);border-top-color:transparent;border-radius:100%;-webkit-animation:spin 1s infinite linear;animation:spin 1s infinite linear}.spinner:after{content:'';display:block;width:0;height:0;position:absolute;top:-6px;left:0;border:4px solid transparent;border-bottom-color:rgba(0,0,0,.5);-webkit-transform:rotate(45deg);transform:rotate(45deg)}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg)}}@keyframes spin{to{transform:rotate(360deg)}}p.toc{margin:0!important}p.toc ul{padding-left:10px}p.toc>ul{padding:10px;margin:0 10px;display:inline-block;border:1px solid #ededed;border-radius:5px}p.toc li,p.toc ul{list-style-type:none}p.toc li{width:100%;padding:0;overflow:hidden}p.toc li a::after{content:"."}p.toc li a:before{content:"• "}p.toc h5{text-transform:uppercase}p.toc .title{float:left;padding-right:3px}p.toc .number{margin:0;float:right;padding-left:3px;background:#fff;display:none}input.task-list-item{margin-left:-1.62em}.markdown{font-family:"Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",'Segoe UI',AppleSDGothicNeo-Medium,'Malgun Gothic',Verdana,Tahoma,sans-serif;padding:20px}.markdown a{text-decoration:none;vertical-align:baseline}.markdown a:hover{text-decoration:underline}.markdown h1{font-size:2.2em;font-weight:700;margin:1.5em 0 1em}.markdown h2{font-size:1.8em;font-weight:700;margin:1.275em 0 .85em}.markdown h3{font-size:1.6em;font-weight:700;margin:1.125em 0 .75em}.markdown h4{font-size:1.4em;font-weight:700;margin:.99em 0 .66em}.markdown h5{font-size:1.2em;font-weight:700;margin:.855em 0 .57em}.markdown h6{font-size:1em;font-weight:700;margin:.75em 0 .5em}.markdown h1+p,.markdown h1:first-child,.markdown h2+p,.markdown h2:first-child,.markdown h3+p,.markdown h3:first-child,.markdown h4+p,.markdown h4:first-child,.markdown h5+p,.markdown h5:first-child,.markdown h6+p,.markdown h6:first-child{margin-top:0}.markdown hr{border:1px solid #ccc}.markdown p{margin:1em 0;word-wrap:break-word}.markdown ol{list-style-type:decimal}.markdown li{display:list-item;line-height:1.4em}.markdown blockquote{margin:1em 20px}.markdown blockquote>:first-child{margin-top:0}.markdown blockquote>:last-child{margin-bottom:0}.markdown blockquote cite:before{content:'\2014 \00A0'}.markdown .code{border-radius:3px;word-wrap:break-word}.markdown pre{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;overflow:auto;padding:.5em}.markdown pre code{border:0;display:block}.markdown pre>code{font-family:Consolas,Inconsolata,Courier,monospace;font-weight:700;white-space:pre;margin:0}.markdown code{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;padding:0 5px;margin:0 2px}.markdown img{max-width:100%}.markdown mark{color:#000;background-color:#fcf8e3}.markdown table{padding:0;border-collapse:collapse;border-spacing:0;margin-bottom:16px}.markdown table tr td,.markdown table tr th{border:1px solid #ccc;margin:0;padding:6px 13px}.markdown table tr th{font-weight:700}.markdown table tr th>:first-child{margin-top:0}.markdown table tr th>:last-child{margin-bottom:0}.markdown table tr td>:first-child{margin-top:0}.markdown table tr td>:last-child{margin-bottom:0}.clearness{padding:20px;color:#737373;font-size:15px;background:#fff;-webkit-font-smoothing:antialiased}.clearness a{color:#1e6ea7}.clearness a:hover{color:#268bd2}.clearness h1,.clearness h2,.clearness h3,.clearness h4,.clearness h5{color:#404040}.clearness h2{border-bottom:1px solid #ccc;line-height:1.7em}.clearness h6{color:#666}.clearness hr{border:1px solid #e6e6e6}.clearness pre>code{font-size:.9em}.clearness blockquote{padding:0 15px;font-style:italic}.clearness blockquote:before{content:"\201C";font-size:40px;margin-left:-20px;color:#aaa}.clearness table{background-color:#fff;border-collapse:separate;border-spacing:2px}.clearness table tr td,.clearness table tr th{border:0;padding:.2em 1em}.clearness table tr th{border-bottom:1px solid #bfbfbf}.clearness table tr td{border-bottom:1px solid #d9d9d9}.clearness table tr:nth-child(2n){background-color:#fff}.hljs{display:block;overflow-x:auto;padding:.5em;background:#eaeef3;-webkit-text-size-adjust:none}.hljs,.hljs-list .hljs-built_in{color:#00193a}.hljs-header,.hljs-important,.hljs-javadoctag,.hljs-keyword,.hljs-request,.hljs-title{font-weight:700}.hljs-chunk,.hljs-comment{color:#738191}.hljs-addition,.hljs-argument,.hljs-blockquote,.hljs-built_in,.hljs-filename,.hljs-header,.hljs-link_label,.hljs-literal,.hljs-parent,.hljs-string,.hljs-tag,.hljs-title,.hljs-value{color:#0048ab}.hljs-attr_selector,.hljs-attribute,.hljs-bullet,.hljs-decorator,.hljs-deletion,.hljs-doctype,.hljs-javadoc,.hljs-link_url,.hljs-phony,.hljs-pi,.hljs-pragma,.hljs-preprocessor,.hljs-prompt,.hljs-regexp,.hljs-shebang,.hljs-sqbracket,.hljs-string .hljs-variable,.hljs-subst,.hljs-symbol,.hljs-xmlDocTag,.hljs-yardoctag{color:#4c81c9}.MathJax_Hover_Frame{border-radius:.25em;-webkit-border-radius:.25em;-moz-border-radius:.25em;-khtml-border-radius:.25em;box-shadow:0 0 15px #83A;-webkit-box-shadow:0 0 15px #83A;-moz-box-shadow:0 0 15px #83A;-khtml-box-shadow:0 0 15px #83A;border:1px solid #A6D!important;display:inline-block;position:absolute}.MathJax_Hover_Arrow{position:absolute;width:15px;height:11px;cursor:pointer}#MathJax_About{position:fixed;left:50%;width:auto;text-align:center;border:3px outset;padding:1em 2em;background-color:#DDD;color:#000;cursor:default;font-family:message-box;font-size:120%;font-style:normal;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-khtml-border-radius:15px;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_Menu{position:absolute;background-color:#fff;color:#000;width:auto;padding:2px;border:1px solid #CCC;margin:0;cursor:default;font:menu;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_MenuItem{padding:2px 2em;background:0 0}.MathJax_MenuArrow{position:absolute;right:.5em;color:#666}.MathJax_MenuActive .MathJax_MenuArrow{color:#fff}.MathJax_MenuArrow.RTL{left:.5em;right:auto}.MathJax_MenuCheck{position:absolute;left:.7em}.MathJax_MenuCheck.RTL{right:.7em;left:auto}.MathJax_MenuRadioCheck{position:absolute;left:1em}.MathJax_MenuRadioCheck.RTL{right:1em;left:auto}.MathJax_MenuLabel{padding:2px 2em 4px 1.33em;font-style:italic}.MathJax_MenuRule{border-top:1px solid #CCC;margin:4px 1px 0}.MathJax_MenuDisabled{color:GrayText}.MathJax_MenuActive{background-color:Highlight;color:HighlightText}.MathJax_Menu_Close{position:absolute;width:31px;height:31px;top:-15px;left:-15px}#MathJax_Zoom{position:absolute;background-color:#F0F0F0;overflow:auto;display:block;z-index:301;padding:.5em;border:1px solid #000;margin:0;font-weight:400;font-style:normal;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;box-shadow:5px 5px 15px #AAA;-webkit-box-shadow:5px 5px 15px #AAA;-moz-box-shadow:5px 5px 15px #AAA;-khtml-box-shadow:5px 5px 15px #AAA;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}#MathJax_ZoomOverlay{position:absolute;left:0;top:0;z-index:300;display:inline-block;width:100%;height:100%;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}#MathJax_ZoomFrame{position:relative;display:inline-block;height:0;width:0}#MathJax_ZoomEventTrap{position:absolute;left:0;top:0;z-index:302;display:inline-block;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}.MathJax_Preview{color:#888}#MathJax_Message{position:fixed;left:1px;bottom:2px;background-color:#E6E6E6;border:1px solid #959595;margin:0;padding:2px 8px;z-index:102;color:#000;font-size:80%;width:auto;white-space:nowrap}#MathJax_MSIE_Frame{position:absolute;top:0;left:0;width:0;z-index:101;border:0;margin:0;padding:0}.MathJax_Error{color:#C00;font-style:italic}footer{position:fixed;font-size:.8em;text-align:right;bottom:0;margin-left:-25px;height:20px;width:100%}</style>
+</head>
+<body class="markdown clearness">
+<font color="black" size="7"><center><strong>基因组进化分析</strong></center></font><font color="black"><center>Author: YangZS</center></font><font color="black"><center>Date: October 20, 2020</center></font><h1 id="目录"><a name="目录" href="#目录"></a>目录</h1><p class="toc" style="undefined"></p><ul>
+<li><ul>
+<li><span class="title">
+<a href="#一、种系基因组学phylogenomics" title="一、种系基因组学Phylogenomics">一、种系基因组学Phylogenomics</a>
+</span>
+<!--span class="number">
+0
+</span-->
+<ul>
+<li><span class="title">
+<a href="#分子进化研究（绘制系统发生树）的目的" title="分子进化研究（绘制系统发生树）的目的">分子进化研究（绘制系统发生树）的目的</a>
+</span>
+<!--span class="number">
+1
+</span-->
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#二、系统发生树构建-数据获取" title="二、系统发生树构建-数据获取">二、系统发生树构建-数据获取</a>
+</span>
+<!--span class="number">
+2
+</span-->
+<ul>
+<li><span class="title">
+<a href="#1.单基因树" title="1.单基因树">1.单基因树</a>
+</span>
+<!--span class="number">
+3
+</span-->
+</li>
+<li><span class="title">
+<a href="#2.多基因树" title="2.多基因树">2.多基因树</a>
+</span>
+<!--span class="number">
+4
+</span-->
+</li>
+<li><span class="title">
+<a href="#3.核心基因组树" title="3.核心基因组树">3.核心基因组树</a>
+</span>
+<!--span class="number">
+5
+</span-->
+</li>
+<li><span class="title">
+<a href="#4.snps树" title="4.SNPs树">4.SNPs树</a>
+</span>
+<!--span class="number">
+6
+</span-->
+<ul>
+<li><span class="title">
+<a href="#细菌核心snp序列获取" title="细菌核心snp序列获取">细菌核心snp序列获取</a>
+</span>
+<!--span class="number">
+7
+</span-->
+<ul>
+<li><span class="title">
+<a href="#ksnp3安装" title="KSNP3安装">KSNP3安装</a>
+</span>
+<!--span class="number">
+8
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#三、构建进化树常用方法：生物进化距离（nj）、统计特征（ml）" title="三、构建进化树常用方法：生物进化距离（NJ）、统计特征（ML）">三、构建进化树常用方法：生物进化距离（NJ）、统计特征（ML）</a>
+</span>
+<!--span class="number">
+9
+</span-->
+<ul>
+<li><span class="title">
+<a href="#1、最大似然法（maximum-likelihood，ml）：" title="1、最大似然法（Maximum likelihood，ML）：">1、最大似然法（Maximum likelihood，ML）：</a>
+</span>
+<!--span class="number">
+10
+</span-->
+</li>
+<li><span class="title">
+<a href="#2、邻接法（neighbor-joining，nj）：" title="2、邻接法（Neighbor-Joining，NJ）：">2、邻接法（Neighbor-Joining，NJ）：</a>
+</span>
+<!--span class="number">
+11
+</span-->
+</li>
+<li><span class="title">
+<a href="#3-基本选择原则" title="3 基本选择原则">3 基本选择原则</a>
+</span>
+<!--span class="number">
+12
+</span-->
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#五、构建进化树" title="五、构建进化树">五、构建进化树</a>
+</span>
+<!--span class="number">
+13
+</span-->
+<ul>
+<li><span class="title">
+<a href="#1.-mega-建树" title="1. MEGA 建树">1. MEGA 建树</a>
+</span>
+<!--span class="number">
+14
+</span-->
+<ul>
+<li><span class="title">
+<a href="#载入序列文件" title="载入序列文件">载入序列文件</a>
+</span>
+<!--span class="number">
+15
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#六、系统发育树可视化" title="六、系统发育树可视化">六、系统发育树可视化</a>
+</span>
+<!--span class="number">
+16
+</span-->
+<ul>
+<li><span class="title">
+<a href="#进化树存储格式" title="进化树存储格式">进化树存储格式</a>
+</span>
+<!--span class="number">
+17
+</span-->
+</li>
+<li><span class="title">
+<a href="#figtree-可视化进化树" title="figtree 可视化进化树">figtree 可视化进化树</a>
+</span>
+<!--span class="number">
+18
+</span-->
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#七、平均核苷酸相似性-（ani）" title="七、平均核苷酸相似性 （ANI）">七、平均核苷酸相似性 （ANI）</a>
+</span>
+<!--span class="number">
+19
+</span-->
+<ul>
+<li><span class="title">
+<a href="#安装-fastani" title="安装 fastANI">安装 fastANI</a>
+</span>
+<!--span class="number">
+20
+</span-->
+</li>
+<li><span class="title">
+<a href="#安装-pyani" title="安装 pyani">安装 pyani</a>
+</span>
+<!--span class="number">
+21
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+</ul>
+<p></p><h2 id="一、种系基因组学phylogenomics"><a name="一、种系基因组学phylogenomics" href="#一、种系基因组学phylogenomics"></a>一、种系基因组学Phylogenomics</h2><p>   病原的溯源，进化以及种群结构是公共卫生研究领域一个非常重要内容。过去基于一代测序的方法，对一个基因（如毒力基因序列）或几个基因（如MLST序列）构建进化树，数据量的不足带来的精度问题，容易造成结果与实际产生偏差。而随着NGS的发展，产生了一门新的学科 Phylogenomics 基因组种系学。通过全基因组的数据来构建绘制系统发生树。</p><center><img src="md_fig/00_tree-of-life.jpg" style="zoom:70%"></center><font color="black"><center>古细菌，细菌，原核系统发育树（Hug et al., A new view of the tree of life, 2016）</center></font><h3 id="分子进化研究（绘制系统发生树）的目的"><a name="分子进化研究（绘制系统发生树）的目的" href="#分子进化研究（绘制系统发生树）的目的"></a>分子进化研究（绘制系统发生树）的目的</h3><ul>
+<li><strong>物种分类及关系</strong>：从物种的一些分子特性出发，利用生物分子序列的保守/变异信息，构建系统发育树，进而了解物种之间的生物系统发生的关系 —— tree of life</li><li><strong>大分子功能与结构的分析</strong>：同一家族的大分子，具有相似的三级结构及生化功能，通过序列或结构同源性分析，构建系统发育树，进行相关分析；功能预测</li><li><strong>进化速率分析</strong>：例如: HIV的高突变性；哪些位点易发生突变？</li></ul><h2 id="二、系统发生树构建-数据获取"><a name="二、系统发生树构建-数据获取" href="#二、系统发生树构建-数据获取"></a>二、系统发生树构建-数据获取</h2><h3 id="1.单基因树"><a name="1.单基因树" href="#1.单基因树"></a>1.单基因树</h3><ul>
+<li><p>ITS (16S rDNA, 18S)<br>  生物三域分类：<br>  • 细菌域（Bacteria）<br>  • 古菌域（Archaea）<br>  • 真核域（Eukarya）</p>
+<p>  利用相对保守的16S rRNA, 18S rRNA序列来研究物种之间的演化关系，例如进行物种的分类等。</p>
+</li><li>管家基因（house-keeping genes)<br>  一定条件下，研究对象之间那些保守存在的分子序列都可以用于构建系统发育树。</li><li>BLAST 单基因建树序列获取。</li></ul><center><img src="md_fig/%E5%8D%95%E5%9F%BA%E5%9B%A0_1_16s.jpg" style="zoom:70%"></center><font color="black"><center>单基因 16s rDNA 序列获取</center></font><h3 id="2.多基因树"><a name="2.多基因树" href="#2.多基因树"></a>2.多基因树</h3><ul>
+<li><strong>MLST</strong> (多位点序列分型) 方法一般测定6<sub>10个管家基因内部400</sub>600bp的核苷酸序列，每个位点的序列根据其发现的时间顺序赋予一个等位基因编号，每一株菌的等位基因编号按照指定的顺序排列就是它的等位基因谱，也就是这株菌的序列型（sequence type，ST）。这样得到的每个ST均代表一组单独的核苷酸序列信息。通过比较ST可以发现菌株的相关性。一般应用于单一细菌物种。</li><li>类似于MLST选择数个保守的基因串联起来成一条序列，进行比对得到多序列比对结果用于建树。</li><li>多基因树的菌株间区分能力是高于单基因树的</li></ul><h3 id="3.核心基因组树"><a name="3.核心基因组树" href="#3.核心基因组树"></a>3.核心基因组树</h3><ul>
+<li>利用软件构建物种泛基因组，利用核心基因组，进行比对得到多序列比对结果用于建树。事实上核心基因树是多基因树的升级版，在分辨率上有进一步的提升。</li></ul><h3 id="4.snps树"><a name="4.snps树" href="#4.snps树"></a>4.SNPs树</h3><ul>
+<li>单核苷酸多态性（SNPs）能够简化冗余的信息，并且能够极大的体现出基因组间的差异，往往在分辨率上优于其他数据类型的发育树。一般而言，SNPs树的菌株间区分能力是最强的，能够最大程度的呈现出菌株间的异同。</li></ul><h4 id="细菌核心snp序列获取"><a name="细菌核心snp序列获取" href="#细菌核心snp序列获取"></a>细菌核心snp序列获取</h4><p>   KSNP3是一种可以识别数百个微生物基因组中SNP的工具，而无需进行基因组比对或参考基因组。并且能够通过简约法（MP），邻接法法(NJ)和最大似然法（ML）估计系统发育树。多线程下可以较快的分析得到全部基因组的snp文件以及基于snp的进化树。kSNP 采用的是基于 kmer 的算法，不需要进行序列的多重比对，也不需要参考基因组进行Mapping。kSNP 可以分析细菌完成基因组和未完成基因组，也可以直接分析测序 reads 数据。kSNP其实是一个流程。</p><p>KSNP3 下载：<a href="https://sourceforge.net/projects/ksnp/files/">https://sourceforge.net/projects/ksnp/files/</a></p><h5 id="ksnp3安装"><a name="ksnp3安装" href="#ksnp3安装"></a>KSNP3安装</h5><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>在家目录下创建一个目录用于存放软件
+cd ~ 
+# mkdir software
+cd  software
+#下载
+wget https://versaweb.dl.sourceforge.net/project/ksnp/kSNP3.1_Linux_package.zip
+
+unzip  kSNP3.1_Linux_package.zip 
+# 删除__MACOSX文件夹
+rm __MACOSX -r 
+#将程序文件提出来
+mv kSNP3.1_Linux_package/kSNP3 .
+# 新产生的 kSNP3 就是kSNP3 的程序文件夹
+
+#主程序kSNP3首部, less 用于linux下查看文件内容
+less kSNP3/kSNP3
+</code></pre>">在家目录下创建一个目录用于存放软件
+<span class="hljs-built_in">cd</span> ~ 
+<span class="hljs-comment"># mkdir software</span>
+<span class="hljs-built_in">cd</span>  software
+<span class="hljs-comment">#下载</span>
+wget https://versaweb.dl.sourceforge.net/project/ksnp/kSNP3.<span class="hljs-number">1</span>_Linux_package.zip
+
+unzip  kSNP3.<span class="hljs-number">1</span>_Linux_package.zip 
+<span class="hljs-comment"># 删除__MACOSX文件夹</span>
+rm __MACOSX -r 
+<span class="hljs-comment">#将程序文件提出来</span>
+mv kSNP3.<span class="hljs-number">1</span>_Linux_package/kSNP3 .
+<span class="hljs-comment"># 新产生的 kSNP3 就是kSNP3 的程序文件夹</span>
+
+<span class="hljs-comment">#主程序kSNP3首部, less 用于linux下查看文件内容</span>
+less kSNP3/kSNP3
+</code></pre><pre><code data-origin="<pre><code>#!/bin/tcsh 
+#v3.92
+########################################################################
+
+# WHERE ARE ALL THE kSNP SCRIPTS?  
+# IF YOU INSTALLED kSNP ANYWHERE OTHER THAN /user/local THEN YOU MUST MODIFY THIS TO POINT TO THE DIRECTORY WHERE YOU HAVE INSTALLED kSNP SCRIPTS
+set kSNP=/usr/local/kSNP3
+#set kSNP=/g/g15/shea/kSNP3_Source
+
+########################################################################
+…
+</code></pre>">#!/bin/tcsh 
+#v3.92
+########################################################################
+
+# WHERE ARE ALL THE kSNP SCRIPTS?  
+# IF YOU INSTALLED kSNP ANYWHERE OTHER THAN /user/local THEN YOU MUST MODIFY THIS TO POINT TO THE DIRECTORY WHERE YOU HAVE INSTALLED kSNP SCRIPTS
+set kSNP=/usr/local/kSNP3
+#set kSNP=/g/g15/shea/kSNP3_Source
+
+########################################################################
+…
+</code></pre><p>需要将原来指定的kSNP3路径：<code>/usr/local/kSNP3</code>，需要修改成我们安装的路径 :<br><strong>path/to/kSNP3/kSNP3</strong> 根据你的实际路径修改 <code>pwd</code> 命令可以查看具体路径<br>例如：<code>/home/biotest/software/kSNP3/kSNP3</code></p><pre><code class="language" data-origin="<pre><code class=&quot;language&quot;>vim  kSNP3/kSNP3
+</code></pre>">vim  kSNP3/kSNP3
+</code></pre><p>可以看到解析器是tcsh,没有安装的话需要自行安装,或联系系统管理员安装</p><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;># ubuntu 安装 tcsh  需要管理员权限
+sudo apt-get install tcsh 
+# centos 系统安装安装tcsh
+sudo yum install tcsh
+</code></pre>"><span class="hljs-comment"># ubuntu 安装 tcsh  需要管理员权限</span>
+sudo apt-get install tcsh 
+<span class="hljs-comment"># centos 系统安装安装tcsh</span>
+sudo yum install tcsh
+</code></pre><p>加入PATH:</p><pre class="bash hljs"><code class="BASH" data-origin="<pre><code class=&quot;BASH&quot;>#软件加入路径
+#备份 ~/.bashrc
+cp ~/.bashrc ~/.bashrc.bak
+echo  &quot;# kSNP3&quot; &amp;gt;&amp;gt; ~/.bashrc
+echo  'PATH=$PATH:/home/biotest/software/kSNP3/' &amp;gt;&amp;gt; ~/.bashrc  
+source ~/.bashrc
+</code></pre>"><span class="hljs-comment">#软件加入路径</span>
+<span class="hljs-comment">#备份 ~/.bashrc</span>
+cp ~/.bashrc ~/.bashrc.bak
+<span class="hljs-built_in">echo</span>  <span class="hljs-string">"# kSNP3"</span> &gt;&gt; ~/.bashrc
+<span class="hljs-built_in">echo</span>  <span class="hljs-string">'PATH=$PATH:/home/biotest/software/kSNP3/'</span> &gt;&gt; ~/.bashrc  
+<span class="hljs-built_in">source</span> ~/.bashrc
+</code></pre><ol>
+<li>kSNP3使用<br>kSNP3提供了一个文档kSNP3.1 User Guide.pdf，介绍相对详细。</li></ol><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>cd ~
+mkdir -p ~/data/core_snp/genome 
+#ksnp3 输入文件是 fasta格式基因组序列文件，上传genome文件的fasta格式到 data/core_snp/genome 目录中
+
+#kSNP3提供了一个脚本MakeKSNP3infile 用于生成in_list.lsit 当所有基因组文件都放置于同一个文件夹中，并且文件名称就是基因组ID的时候，可以使用MakeKSNP3infile自动模式很好的生成in_list.list：
+
+cd  ~/data/core_snp/
+MakeKSNP3infile  genome  in_list.list  A  . 
+# 参数解释
+# core_fasta/  放置基因组文件的文件夹 
+# in_list.lsit  生成的输入文件名
+#A 自动模式，即基因组文件名 就作为基因组的ID
+#.  结果输出位置
+
+kSNP3 -in in_list.list -k 13 -CPU 10 -core -NJ  -outdir ksnp_out
+
+#运行时间比较久,10个线程，大概在20分钟左右，我这里就跳过等待过程
+</code></pre>"><span class="hljs-built_in">cd</span> ~
+mkdir -p ~/data/core_snp/genome 
+<span class="hljs-comment">#ksnp3 输入文件是 fasta格式基因组序列文件，上传genome文件的fasta格式到 data/core_snp/genome 目录中</span>
+
+<span class="hljs-comment">#kSNP3提供了一个脚本MakeKSNP3infile 用于生成in_list.lsit 当所有基因组文件都放置于同一个文件夹中，并且文件名称就是基因组ID的时候，可以使用MakeKSNP3infile自动模式很好的生成in_list.list：</span>
+
+<span class="hljs-built_in">cd</span>  ~/data/core_snp/
+MakeKSNP3infile  genome  <span class="hljs-keyword">in</span>_list.list  A  . 
+<span class="hljs-comment"># 参数解释</span>
+<span class="hljs-comment"># core_fasta/  放置基因组文件的文件夹 </span>
+<span class="hljs-comment"># in_list.lsit  生成的输入文件名</span>
+<span class="hljs-comment">#A 自动模式，即基因组文件名 就作为基因组的ID</span>
+<span class="hljs-comment">#.  结果输出位置</span>
+
+kSNP3 -in <span class="hljs-keyword">in</span>_list.list -k <span class="hljs-number">13</span> -CPU <span class="hljs-number">10</span> -core -NJ  -outdir ksnp_out
+
+<span class="hljs-comment">#运行时间比较久,10个线程，大概在20分钟左右，我这里就跳过等待过程</span>
+</code></pre><p>参数解释：</p><pre><code data-origin="<pre><code>-in  in_list.list 格式：基因组fasta 格式的文件 路径及对应名称 使用制表符(\t)分割
+                    注意，这里的路径必须使用绝对路径，当然不能在名称和路径中出现空格
+
+# less in_list.list 查看in_list.list的内容 
+/home/biotest/data/core_snp/genome/G5101.fna     G5101
+/home/biotest/data/core_snp/genome/H_2687.fna    H_2687
+/home/biotest/data/core_snp/genome/EPECa14.fna   EPECa14
+/home/biotest/data/core_snp/genome/OK1180.fna    OK1180
+/home/biotest/data/core_snp/genome/USDA_5905.fna USDA_5905
+... ...
+
+-k 切分kmer的长度 要求 是奇数 正整数 ，设置越大内存消耗就越大 这里我设置为13
+-CPU  线程数 基于计算机的运算资源设置注意内存消耗。
+-core    计算核心基因和核心SNP简约树
+-NJ    计算生成NJ树
+-outdir 结果输出文件夹
+</code></pre>">-in  in_list.list 格式：基因组fasta 格式的文件 路径及对应名称 使用制表符(\t)分割
+                    注意，这里的路径必须使用绝对路径，当然不能在名称和路径中出现空格
+
+# less in_list.list 查看in_list.list的内容 
+/home/biotest/data/core_snp/genome/G5101.fna     G5101
+/home/biotest/data/core_snp/genome/H_2687.fna    H_2687
+/home/biotest/data/core_snp/genome/EPECa14.fna   EPECa14
+/home/biotest/data/core_snp/genome/OK1180.fna    OK1180
+/home/biotest/data/core_snp/genome/USDA_5905.fna USDA_5905
+... ...
+
+-k 切分kmer的长度 要求 是奇数 正整数 ，设置越大内存消耗就越大 这里我设置为13
+-CPU  线程数 基于计算机的运算资源设置注意内存消耗。
+-core    计算核心基因和核心SNP简约树
+-NJ    计算生成NJ树
+-outdir 结果输出文件夹
+</code></pre><p>结果文件：</p><center><img src="md_fig/ksnp_1_result.jpg" style="zoom:70%"></center><font color="black"><center>ksnp 结果文件</center></font><p>输出结果挺多，我们需要的最多的是两个snp的fasta文件：</p><p><code>SNPs_all_matrix.fasta</code> 基因组snp位点，fasta格式<br><code>core_SNPs_matrix.fasta</code> 核心snp位点，fasta格式<br><code>tree.parsimony.tre</code>   基于全部snp最大简约一致树基于全部snp的NJ树 （没有检验值）<br><code>tree.core.tre</code>    基核心snp最大简约一致树（没有检验值）<br><code>tree.NJ.tre</code>    基于全部snp的NJ树 （没有检验值）<br>对于结果详细的解释可以参考kSNP3提供的向导文件。 </p><h2 id="三、构建进化树常用方法：生物进化距离（nj）、统计特征（ml）"><a name="三、构建进化树常用方法：生物进化距离（nj）、统计特征（ml）" href="#三、构建进化树常用方法：生物进化距离（nj）、统计特征（ml）"></a>三、构建进化树常用方法：生物进化距离（NJ）、统计特征（ML）</h2><h3 id="1、最大似然法（maximum-likelihood，ml）："><a name="1、最大似然法（maximum-likelihood，ml）：" href="#1、最大似然法（maximum-likelihood，ml）："></a>1、最大似然法（Maximum likelihood，ML）：</h3><p><strong>1.1 依据：</strong><br>   这个方法最早是遗传学家以及统计学家罗纳德·费雪爵士在 1912 年至1922 年间开始使用的 。基本思想是：当从模型总体随机抽取n组样本观测值后，最合理的参数估计量应该使得从模型中抽取该n组样本观测值的概率最大，而不是像最小二乘估计法旨在得到使得模型能最好地拟合样本数据的参数估计量。</p><p><strong>1.2 方法：</strong><br>   选取一个特定的替代模型来分析给定的一组序列数据，使得获得的每一个拓扑结构的似然率都为最大值，然后再挑出其中似然率最大的拓扑结构作为最优树（所以分析时间比较长）</p><p><strong>1.3 特点：</strong><br>   最大似然法具有很好的统计学理论基础，是一个比较成熟的统计学方法。选择合理的模型后，最大似然法可以推导出一个效果很好的进化树结果。<strong>但是对于相似度很低的序列，NJ往往出现Long-branch attraction（LBA，长枝吸引现象）</strong>，有时严重干扰进化树的构建。</p><h3 id="2、邻接法（neighbor-joining，nj）："><a name="2、邻接法（neighbor-joining，nj）：" href="#2、邻接法（neighbor-joining，nj）："></a>2、邻接法（Neighbor-Joining，NJ）：</h3><p>   1987 由 Naruya Saitou， Masatoshi Neiin 提出的方法，该算法需要知道每一对之间的距离分类单元 (例如,物种或序列) 来使系统树的总距离达到最小，来形成树。。通过，就可以建立一个相应的拓扑树。</p><p><strong>2.2 方法：</strong><br>   邻接连接将距离矩阵作为输入，指定每对分类群之间的距离。该算法以完全未解析的树开始，其拓扑对应于星型网络的拓扑，并迭代地将相邻点合并成新的点（相邻是指两个分类单位在某一无根分叉树中仅通过一个节点相连），直到树完全解析并且所有分支长度都已知。</p><p><strong>2.3 特点</strong><br>   与其他方法相比，优点就是速度快，所以可以快速分析大型数据集。</p><h3 id="3-基本选择原则"><a name="3-基本选择原则" href="#3-基本选择原则"></a>3 基本选择原则</h3><p>   为了简化选择的过程，一般而言在<strong>大量数据，近缘物种序列</strong>时选择NJ，排除上述原因计算资源充足时可以选择ML</p><h2 id="五、构建进化树"><a name="五、构建进化树" href="#五、构建进化树"></a>五、构建进化树</h2><h3 id="1.-mega-建树"><a name="1.-mega-建树" href="#1.-mega-建树"></a>1. MEGA 建树</h3><p>   MEGA 是用于系统发育分析的一个强大的套件，包含整个发育分析的流程，操作简单，基本能够满足研究中的进化树构建工作需求。<br>主页：<a href="https://www.megasoftware.net/">https://www.megasoftware.net/</a></p><center><img src="md_fig/mega_0_%E4%B8%BB%E9%A1%B5.jpg" style="zoom:50%"></center><font color="black"><center>mega 下载</center></font><h4 id="载入序列文件"><a name="载入序列文件" href="#载入序列文件"></a>载入序列文件</h4><ul>
+<li>载入序列 <code>File</code> &gt;&gt; <code>Open A File/Session.…</code> ，选择比对模式（<code>Align</code>）</li><li>序列比对 使用muscle算法进行比对。</li></ul><center><img src="md_fig/mega%E6%AF%94%E5%AF%B9_1.jpg" style="zoom:70%"></center><center><img src="md_fig/mega%E6%AF%94%E5%AF%B9_1_%E6%AF%94%E5%AF%B9%E4%B8%AD.jpg" style="zoom:70%"></center><font color="black"><center>mega载入fasta文件进行比对</center></font><p>-<strong> 建树</strong> 在比对页面 <code>Data</code> &gt;&gt;  <code>Phylogenetic Analysis</code> , 根据序列来源选择是否是蛋白编码序列（SNPs比对，选择NO；核心基因组，选择YES）</p><ul>
+<li><strong>点击 <code>PHYLOGENY</code></strong>, 选择建树方法开始构建进化树（ML，NJ）</li></ul><center><img src="md_fig/mega%E5%BB%BA%E6%A0%91_1.jpg" style="zoom:70%"></center><font color="black"><center>mega载入fasta文件进行比对</center></font><ul>
+<li><strong>NJ 建树参数设定 </strong><ul>
+<li><code>Test of Phylogeny</code> 选择 <code>Bootstrap method</code> ； 进化树检验方法选择自举检验（Bootstrap）</li><li><code>No.of Bootstrap Replications</code> 进化树检验次数设定为100 以上（100/500/1000),序列过多就设定小一些。</li><li><code>Gaps/Missing Data Treatment</code> gap 处理方式，一般而言选择<code>Pairwise deletion</code>，可以排除一些数据干扰</li><li><code>Number of Threads</code>使用线程数 根据pc的核心数设定（一般pc是4或8 线程），可以加快建树，最好不要使用全部线程，不然会很卡顿。</li><li>点击 <code>OK</code> 开始建树。</li></ul>
+</li></ul><center><img src="md_fig/mega%E5%BB%BA%E6%A0%91_2_NJ_%E5%8F%82%E6%95%B0%E8%AE%BE%E5%AE%9A.jpg" style="zoom:70%"></center><font color="black"><center>mega建树 （NJ） 参数设定</center></font><ul>
+<li><strong>mega 建树结果</strong></li></ul><center><img src="md_fig/mega%E5%BB%BA%E6%A0%91_3_NJ.jpg" style="zoom:70%"></center><font color="black"><center>mega 核心基因组 NJ 树</center></font><ul>
+<li>mega 建树结果导出nwk格式<br>  <code>File</code> &gt;&gt; <code>Export Current Tree(Newick)</code> 当前进化树导出成nwk的格式的树文件，可以使用其他树可视化软件打开。</li></ul><center><img src="md_fig/mega%E5%BB%BA%E6%A0%91_4_NJ.jpg" style="zoom:70%"></center><font color="black"><center>mega 核心基因组 NJ 树 导出 </center></font><ul>
+<li><strong>mega 进化树调整</strong><br>mega侧边栏 可以对进化树图形进行简单的调整（如显示bootstrap检验值等）。</li></ul><center><img src="md_fig/mega%E5%BB%BA%E6%A0%91_5%E8%B0%83%E6%95%B4.jpg" style="zoom:70%"></center><font color="black"><center>mega 进化树调整 </center></font><ul>
+<li><strong>mega 进化树图像导出</strong><br>  <code>Image</code> &gt;&gt;  <code>Copy to Clipboard</code><br>  当前进化树复制到剪切版，可以在新建ppt中编辑进化树，美化进化树等: ppt中，右键点击复制的树文件，<code>组合</code>&gt;<code>取消组合</code>&gt; <code>转换成图形文件</code>，就可以编辑了。<br>  <code>Image</code> &gt;&gt;  <code>Save as BMP/PDF/PNG/SVG/TIFF/EMF file</code><br>  另存为不同格式的图形文件，<strong>推荐使用pdf或者svg</strong>，因为这两种格式可编辑生成其他文件格式，此过程不可逆。</li></ul><center><img src="md_fig/mega%E5%BB%BA%E6%A0%91_6_%E5%9B%BE%E5%83%8F%E5%AF%BC%E5%87%BA.jpg" style="zoom:70%"></center><font color="black"><center>mega 进化树图像导出 </center></font><h2 id="六、系统发育树可视化"><a name="六、系统发育树可视化" href="#六、系统发育树可视化"></a>六、系统发育树可视化</h2><h3 id="进化树存储格式"><a name="进化树存储格式" href="#进化树存储格式"></a>进化树存储格式</h3><p>进化树通用格式使用newick格式</p><h3 id="figtree-可视化进化树"><a name="figtree-可视化进化树" href="#figtree-可视化进化树"></a>figtree 可视化进化树</h3><p>Fig Tree是常用的系统发育树做图软件，该软件因其做图美观且功能强大受到青睐。<br>主页地址：<a href="http://tree.bio.ed.ac.uk/software/figtree/">http://tree.bio.ed.ac.uk/software/figtree/</a><br>下载地址：<a href="https://github.com/rambaut/figtree/releases">https://github.com/rambaut/figtree/releases</a></p><center><img src="md_fig/figtree_0.jpg" style="zoom:100%"></center><ul>
+<li>1.打开树文件.tre，初始状态如下；</li><li>2.打开 <code>Layout</code> 布局标签，红框部分是不同的呈现格式：<strong>矩形进化树，环状进化树，辐射状进化树</strong>。 按要求选择；Zoom 标签是调整图的大小； Expansion 标签是调整图的高度；Fish eye 进行布局调整；Root length 是调节根的长度；Cuevature 是 调整角分支的线条；</li></ul><center><img src="md_fig/figtree_1.jpg" style="zoom:100%"></center><font color="black"><center>figtree Layout 布局版面</center></font><ul>
+<li>3.<code>Appearance</code> 标签 Line weight 是调整分支的粗细；</li><li>4.<code>Tip lables</code> 标签，加上样本名；还可以改变样本名大小以及颜色；</li><li>5.<code>Node labels</code> 是添加节点标签；可以改变样本名大小以及颜色，sig digits 选项可以改变小数保留位数；</li><li>6.<code>Node shapes</code> 是改变节点形状以及大小；</li><li>7.<code>Branch labels</code> 是添加分支标签，可以改变字体颜色和大小， sig digits 选项可以改变小数保留位数；</li><li>8.<code>Scale bar</code> 是增加标尺；</li><li>9.<code>Scale axis</code> 是增加最下方的标尺；勾选掉 show grid 选项可以删除竖线部分；</li><li>10.<code>Time scale</code> 标签是调节最下方坐标轴的，scale by factor 是默认选项，scale root to 选项可改变轴的最大值。</li><li>11.<code>Hilight</code> 标签可以改变分支的颜色；</li></ul><center><img src="md_fig/figtree_hilight.jpg" style="zoom:100%"></center><font color="black"><center>figtree Hilight 高亮分支颜色</center></font><hr class="page"><h2 id="七、平均核苷酸相似性-（ani）"><a name="七、平均核苷酸相似性-（ani）" href="#七、平均核苷酸相似性-（ani）"></a>七、平均核苷酸相似性 （ANI）</h2><p>在比较基因组分析中，为了进行定量的比较分析不同基因组之间的进化关系，可以计算不同基因组之间的相似性或者进化距离，以进行物种分类、亲缘关系比较等。<strong>平均核苷酸相似度（Average Nucleotide Identity，ANI）</strong>是在核苷酸水平比较两个基因组亲缘关系的指标。ANI被定义为两个微生物基因组同源片段之间平均的碱基相似度，他的特点是在近缘物种之间有较高的区分度。95%的ANI,作为分类大致标准。</p><h3 id="安装-fastani"><a name="安装-fastani" href="#安装-fastani"></a>安装 fastANI</h3><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>cd ~
+cd software/
+wget https://github.com/ParBLiSS/FastANI/releases/download/v1.32/fastANI-Linux64-v1.32.zip 
+unzip fastANI-Linux64-v1.32.zip 
+
+#备份 ~/.bashrc
+cp ~/.bashrc ~/.bashrc.bak
+#软件加入路径
+echo 'PATH=$PATH:~/software' &amp;gt;&amp;gt; ~/.bashrc
+source ~/.bashrc
+
+#新建ani工作目录
+mkdir -p ~/data/ani &amp;amp;&amp;amp; cd ~/data/ani
+mkdir genome
+
+#上传基因组fasta文件到genome
+#生成 文件路径列表
+ls genome/* &amp;gt; g.list
+#运行 fastANI
+fastANI --ql g.list --rl  g.list -o fastANI_out.xls   --matrix -t 10
+# --ql g.list  query list 请求基因组列表
+# --rl  g.list ref list 参考基因组列表
+# 此处 请求基因组列表 和 参考基因组列表相同 意思是我们计算glist的里面的菌株两两之间的ani
+# -o fastANI_out.xls 输出文件名称
+# --matrix 生成矩阵结果
+# -t 10  线程数10 
+
+#时间消耗 24.982s
+</code></pre>"><span class="hljs-built_in">cd</span> ~
+<span class="hljs-built_in">cd</span> software/
+wget https://github.com/ParBLiSS/FastANI/releases/download/v1.<span class="hljs-number">32</span>/fastANI-Linux64-v1.<span class="hljs-number">32</span>.zip 
+unzip fastANI-Linux64-v1.<span class="hljs-number">32</span>.zip 
+
+<span class="hljs-comment">#备份 ~/.bashrc</span>
+cp ~/.bashrc ~/.bashrc.bak
+<span class="hljs-comment">#软件加入路径</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">'PATH=$PATH:~/software'</span> &gt;&gt; ~/.bashrc
+<span class="hljs-built_in">source</span> ~/.bashrc
+
+<span class="hljs-comment">#新建ani工作目录</span>
+mkdir -p ~/data/ani &amp;&amp; <span class="hljs-built_in">cd</span> ~/data/ani
+mkdir genome
+
+<span class="hljs-comment">#上传基因组fasta文件到genome</span>
+<span class="hljs-comment">#生成 文件路径列表</span>
+ls genome/* &gt; g.list
+<span class="hljs-comment">#运行 fastANI</span>
+fastANI --ql g.list --rl  g.list -o fastANI_out.xls   --matrix -t <span class="hljs-number">10</span>
+<span class="hljs-comment"># --ql g.list  query list 请求基因组列表</span>
+<span class="hljs-comment"># --rl  g.list ref list 参考基因组列表</span>
+<span class="hljs-comment"># 此处 请求基因组列表 和 参考基因组列表相同 意思是我们计算glist的里面的菌株两两之间的ani</span>
+<span class="hljs-comment"># -o fastANI_out.xls 输出文件名称</span>
+<span class="hljs-comment"># --matrix 生成矩阵结果</span>
+<span class="hljs-comment"># -t 10  线程数10 </span>
+
+<span class="hljs-comment">#时间消耗 24.982s</span>
+</code></pre><p>fastANI ani结果是一个一对一的列表结果，和一个三角矩阵：</p><center><img src="md_fig/fastani_%E7%9F%A9%E9%98%B5.jpg" style="zoom:100%"></center><font color="black"><center>fastani_列表</center></font><center><img src="md_fig/fastani_%E7%9F%A9%E9%98%B52.jpg" style="zoom:100%"></center><font color="black"><center>fastani_矩阵</center></font><p>结果可以看出fastANI ,貌似不能计算 小于90%的ani结果，意味着这个不能计算不同物种的的ANI。对于这个问题我们使用pyani来解决。</p><h3 id="安装-pyani"><a name="安装-pyani" href="#安装-pyani"></a>安装 pyani</h3><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>source ~/anaconda3/bin/activate  bioinfo
+pip install   pyani
+
+#进入工作目录
+cd ~/data/ani
+#运行
+average_nucleotide_identity.py  --write_excel  -m ANIb -g   --workers  10  -i genome -o ANIb_output
+
+# --write_excel 结果输出 表格
+# -m ANIb 算法选ANIb
+#  --workers  10   线程数10 
+# -i genome  基因组所在文件
+# -o ANIb_output 输出文件目录名称
+
+#时间消耗  5m0.846s
+</code></pre>"><span class="hljs-built_in">source</span> ~/anaconda3/bin/activate  bioinfo
+pip install   pyani
+
+<span class="hljs-comment">#进入工作目录</span>
+<span class="hljs-built_in">cd</span> ~/data/ani
+<span class="hljs-comment">#运行</span>
+average_nucleotide_identity.py  --write_excel  -m ANIb -g   --workers  <span class="hljs-number">10</span>  -i genome -o ANIb_output
+
+<span class="hljs-comment"># --write_excel 结果输出 表格</span>
+<span class="hljs-comment"># -m ANIb 算法选ANIb</span>
+<span class="hljs-comment">#  --workers  10   线程数10 </span>
+<span class="hljs-comment"># -i genome  基因组所在文件</span>
+<span class="hljs-comment"># -o ANIb_output 输出文件目录名称</span>
+
+<span class="hljs-comment">#时间消耗  5m0.846s</span>
+</code></pre><p>pyani ani结果是矩阵表格，热图可视化时十分方便。</p><ul>
+<li>ANI 结果文件（图形表格）</li></ul><center><img src="md_fig/ani_1_%E5%9B%BE%E5%BD%A2.jpg" style="zoom:100%"></center><font color="black"><center>pyani 结果文件ani矩阵结果</center></font><ul>
+<li>ANI 矩阵结果</li></ul><center><img src="md_fig/ani_1_%E7%9F%A9%E9%98%B5.jpg" style="zoom:100%"></center><font color="black"><center>pyani 结果文件ani矩阵结果 ANIb_percentage_identity.xlsx</center></font><center><img src="md_fig/ani_2_%E5%9B%BE%E5%BD%A2.jpg" style="zoom:100%"></center><font color="black"><center>pyani 结果文件ani图形阵结果 ANIb_percentage_identity.png/pdf/eps</center></font><ul>
+<li><p><strong>可视化</strong>：<br>pyani的可视化的结果十分简陋，我们使用R重新绘制ANI热图。确保<code>ANI_pheatmap.R</code> 和 <code>ANIb_percentage_identity.tab</code> 在同一个目录下 使用 Rstudio 打开 <code>ANI_pheatmap.R</code>  执行全部命令（可能需要安装pheatmap ）</p>
+<center><img src="md_fig/ani_plot.jpg" style="zoom:80%"></center>
+
+</li></ul><font color="black"><center>确保<code>ANI_pheatmap.R</code> 和 <code>ANIb_percentage_identity.tab</code> 在同一个目录下</center></font><center><img src="md_fig/ani_plot_2.jpg" style="zoom:80%"></center><font color="black"><center> 新的可视化图形 ANIb_percentage_identity_new.pdf </center></font>
+
+<footer style="position:fixed; font-size:.8em; text-align:right; bottom:0px; margin-left:-25px; height:20px; width:100%;">generated by <a href="http://pad.haroopress.com" target="_blank">haroopad</a></footer>
+</body>
+</html>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>03_Comparative_genomics.html</title>
+  <meta name="generator" content="Haroopad 0.13.1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>div.oembedall-githubrepos{border:1px solid #DDD;border-radius:4px;list-style-type:none;margin:0 0 10px;padding:8px 10px 0;font:13.34px/1.4 helvetica,arial,freesans,clean,sans-serif;width:452px;background-color:#fff}div.oembedall-githubrepos .oembedall-body{background:-moz-linear-gradient(center top,#FAFAFA,#EFEFEF);background:-webkit-gradient(linear,left top,left bottom,from(#FAFAFA),to(#EFEFEF));border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top:1px solid #EEE;margin-left:-10px;margin-top:8px;padding:5px 10px;width:100%}div.oembedall-githubrepos h3{font-size:14px;margin:0;padding-left:18px;white-space:nowrap}div.oembedall-githubrepos p.oembedall-description{color:#444;font-size:12px;margin:0 0 3px}div.oembedall-githubrepos p.oembedall-updated-at{color:#888;font-size:11px;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats{border:none;float:right;font-size:11px;font-weight:700;padding-left:15px;position:relative;z-index:5;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats li{border:none;color:#666;display:inline-block;list-style-type:none;margin:0!important}div.oembedall-githubrepos ul.oembedall-repo-stats li a{background-color:transparent;border:none;color:#666!important;background-position:5px -2px;background-repeat:no-repeat;border-left:1px solid #DDD;display:inline-block;height:21px;line-height:21px;padding:0 5px 0 23px}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a{border-left:medium none;margin-right:-3px}div.oembedall-githubrepos ul.oembedall-repo-stats li a:hover{background:5px -27px no-repeat #4183C4;color:#FFF!important;text-decoration:none}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a:hover{border-bottom-left-radius:3px;border-top-left-radius:3px}ul.oembedall-repo-stats li:last-child a:hover{border-bottom-right-radius:3px;border-top-right-radius:3px}span.oembedall-closehide{background-color:#aaa;border-radius:2px;cursor:pointer;margin-right:3px}div.oembedall-container{margin-top:5px;text-align:left}.oembedall-ljuser{font-weight:700}.oembedall-ljuser img{vertical-align:bottom;border:0;padding-right:1px}.oembedall-stoqembed{border-bottom:1px dotted #999;float:left;overflow:hidden;width:730px;line-height:1;background:#FFF;color:#000;font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;font-size:80%;text-align:left;margin:0;padding:0}.oembedall-stoqembed a{color:#07C;text-decoration:none;margin:0;padding:0}.oembedall-stoqembed a:hover{text-decoration:underline}.oembedall-stoqembed a:visited{color:#4A6B82}.oembedall-stoqembed h3{font-family:Trebuchet MS,Liberation Sans,DejaVu Sans,sans-serif;font-size:130%;font-weight:700;margin:0;padding:0}.oembedall-stoqembed .oembedall-reputation-score{color:#444;font-size:120%;font-weight:700;margin-right:2px}.oembedall-stoqembed .oembedall-user-info{height:35px;width:185px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-gravatar32{float:left;height:32px;width:32px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-details{float:left;margin-left:5px;overflow:hidden;white-space:nowrap;width:145px}.oembedall-stoqembed .oembedall-question-hyperlink{font-weight:700}.oembedall-stoqembed .oembedall-stats{background:#EEE;margin:0 0 0 7px;padding:4px 7px 6px;width:58px}.oembedall-stoqembed .oembedall-statscontainer{float:left;margin-right:8px;width:86px}.oembedall-stoqembed .oembedall-votes{color:#555;padding:0 0 7px;text-align:center}.oembedall-stoqembed .oembedall-vote-count-post{font-size:240%;color:#808185;display:block;font-weight:700}.oembedall-stoqembed .oembedall-views{color:#999;padding-top:4px;text-align:center}.oembedall-stoqembed .oembedall-status{margin-top:-3px;padding:4px 0;text-align:center;background:#75845C;color:#FFF}.oembedall-stoqembed .oembedall-status strong{color:#FFF;display:block;font-size:140%}.oembedall-stoqembed .oembedall-summary{float:left;width:635px}.oembedall-stoqembed .oembedall-excerpt{line-height:1.2;margin:0;padding:0 0 5px}.oembedall-stoqembed .oembedall-tags{float:left;line-height:18px}.oembedall-stoqembed .oembedall-tags a:hover{text-decoration:none}.oembedall-stoqembed .oembedall-post-tag{background-color:#E0EAF1;border-bottom:1px solid #3E6D8E;border-right:1px solid #7F9FB6;color:#3E6D8E;font-size:90%;line-height:2.4;margin:2px 2px 2px 0;padding:3px 4px;text-decoration:none;white-space:nowrap}.oembedall-stoqembed .oembedall-post-tag:hover{background-color:#3E6D8E;border-bottom:1px solid #37607D;border-right:1px solid #37607D;color:#E0EAF1}.oembedall-stoqembed .oembedall-fr{float:right}.oembedall-stoqembed .oembedall-statsarrow{background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.png?v=3);background-repeat:no-repeat;overflow:hidden;background-position:0 -435px;float:right;height:13px;margin-top:12px;width:7px}.oembedall-facebook1{border:1px solid #1A3C6C;padding:0;font:13.34px/1.4 verdana;width:500px}.oembedall-facebook2{background-color:#627add}.oembedall-facebook2 a{color:#e8e8e8;text-decoration:none}.oembedall-facebookBody{background-color:#fff;vertical-align:top;padding:5px}.oembedall-facebookBody .contents{display:inline-block;width:100%}.oembedall-facebookBody div img{float:left;margin-right:5px}div.oembedall-lanyard{-webkit-box-shadow:none;-webkit-transition-delay:0s;-webkit-transition-duration:.4000000059604645s;-webkit-transition-property:width;-webkit-transition-timing-function:cubic-bezier(0.42,0,.58,1);background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;border-width:0;box-shadow:none;color:#112644;display:block;float:left;font-family:'Trebuchet MS',Trebuchet,sans-serif;font-size:16px;height:253px;line-height:19px;margin:0;max-width:none;min-height:0;outline:#112644 0;overflow-x:visible;overflow-y:visible;padding:0;position:relative;text-align:left;vertical-align:baseline;width:804px}div.oembedall-lanyard .tagline{font-size:1.5em}div.oembedall-lanyard .wrapper{overflow:hidden;clear:both}div.oembedall-lanyard .split{float:left;display:inline}div.oembedall-lanyard .prominent-place .flag:active,div.oembedall-lanyard .prominent-place .flag:focus,div.oembedall-lanyard .prominent-place .flag:hover,div.oembedall-lanyard .prominent-place .flag:link,div.oembedall-lanyard .prominent-place .flag:visited{float:left;display:block;width:48px;height:48px;position:relative;top:-5px;margin-right:10px}div.oembedall-lanyard .place-context{font-size:.889em}div.oembedall-lanyard .prominent-place .sub-place{display:block}div.oembedall-lanyard .prominent-place{font-size:1.125em;line-height:1.1em;font-weight:400}div.oembedall-lanyard .main-date{color:#8CB4E0;font-weight:700;line-height:1.1}div.oembedall-lanyard .first{width:48.57%;margin:0 0 0 2.857%}.mermaid .label{color:#333}.node circle,.node polygon,.node rect{fill:#cde498;stroke:#13540c;stroke-width:1px}.edgePath .path{stroke:green;stroke-width:1.5px}.cluster rect{fill:#cdffb2;rx:40;stroke:#6eaa49;stroke-width:1px}.cluster text{fill:#333}.actor{stroke:#13540c;fill:#cde498}text.actor{fill:#000;stroke:none}.actor-line{stroke:grey}.messageLine0{stroke-width:1.5;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#333}.messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#arrowhead{fill:#333}#crosshead path{fill:#333!important;stroke:#333!important}.messageText{fill:#333;stroke:none}.labelBox{stroke:#326932;fill:#cde498}.labelText,.loopText{fill:#000;stroke:none}.loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#326932}.note{stroke:#6eaa49;fill:#fff5ad}.noteText{fill:#000;stroke:none;font-family:'trebuchet ms',verdana,arial;font-size:14px}.section{stroke:none;opacity:.2}.section0,.section2{fill:#6eaa49}.section1,.section3{fill:#fff;opacity:.2}.sectionTitle0,.sectionTitle1,.sectionTitle2,.sectionTitle3{fill:#333}.sectionTitle{text-anchor:start;font-size:11px;text-height:14px}.grid .tick{stroke:lightgrey;opacity:.3;shape-rendering:crispEdges}.grid path{stroke-width:0}.today{fill:none;stroke:red;stroke-width:2px}.task{stroke-width:2}.taskText{text-anchor:middle;font-size:11px}.taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}.taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}.taskText0,.taskText1,.taskText2,.taskText3{fill:#fff}.task0,.task1,.task2,.task3{fill:#487e3a;stroke:#13540c}.taskTextOutside0,.taskTextOutside1,.taskTextOutside2,.taskTextOutside3{fill:#000}.active0,.active1,.active2,.active3{fill:#cde498;stroke:#13540c}.activeText0,.activeText1,.activeText2,.activeText3{fill:#000!important}.done0,.done1,.done2,.done3{stroke:grey;fill:lightgrey;stroke-width:2}.doneText0,.doneText1,.doneText2,.doneText3{fill:#000!important}.crit0,.crit1,.crit2,.crit3{stroke:#f88;fill:red;stroke-width:2}.activeCrit0,.activeCrit1,.activeCrit2,.activeCrit3{stroke:#f88;fill:#cde498;stroke-width:2}.doneCrit0,.doneCrit1,.doneCrit2,.doneCrit3{stroke:#f88;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}.activeCritText0,.activeCritText1,.activeCritText2,.activeCritText3,.doneCritText0,.doneCritText1,.doneCritText2,.doneCritText3{fill:#000!important}.titleText{text-anchor:middle;font-size:18px;fill:#000}text{font-family:'trebuchet ms',verdana,arial;font-size:14px}html{height:100%}body{margin:0!important;padding:5px 20px 26px!important;background-color:#fff;font-family:"Lucida Grande","Segoe UI","Apple SD Gothic Neo","Malgun Gothic","Lucida Sans Unicode",Helvetica,Arial,sans-serif;font-size:.9em;overflow-x:hidden;overflow-y:auto}br,h1,h2,h3,h4,h5,h6{clear:both}hr.page{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x;border:0;height:3px;padding:0}hr.underscore{border-top-style:dashed!important}body >:first-child{margin-top:0!important}img.plugin{box-shadow:0 1px 3px rgba(0,0,0,.1);border-radius:3px}iframe{border:0}figure{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0}kbd{border:1px solid #aaa;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-moz-box-shadow:1px 2px 2px #ddd;-webkit-box-shadow:1px 2px 2px #ddd;box-shadow:1px 2px 2px #ddd;background-color:#f9f9f9;background-image:-moz-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-o-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-webkit-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:linear-gradient(top,#eee,#f9f9f9,#eee);padding:1px 3px;font-family:inherit;font-size:.85em}.oembeded .oembed_photo{display:inline-block}img[data-echo]{margin:25px 0;width:100px;height:100px;background:url(../img/ajax.gif) center center no-repeat #fff}.spinner{display:inline-block;width:10px;height:10px;margin-bottom:-.1em;border:2px solid rgba(0,0,0,.5);border-top-color:transparent;border-radius:100%;-webkit-animation:spin 1s infinite linear;animation:spin 1s infinite linear}.spinner:after{content:'';display:block;width:0;height:0;position:absolute;top:-6px;left:0;border:4px solid transparent;border-bottom-color:rgba(0,0,0,.5);-webkit-transform:rotate(45deg);transform:rotate(45deg)}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg)}}@keyframes spin{to{transform:rotate(360deg)}}p.toc{margin:0!important}p.toc ul{padding-left:10px}p.toc>ul{padding:10px;margin:0 10px;display:inline-block;border:1px solid #ededed;border-radius:5px}p.toc li,p.toc ul{list-style-type:none}p.toc li{width:100%;padding:0;overflow:hidden}p.toc li a::after{content:"."}p.toc li a:before{content:"• "}p.toc h5{text-transform:uppercase}p.toc .title{float:left;padding-right:3px}p.toc .number{margin:0;float:right;padding-left:3px;background:#fff;display:none}input.task-list-item{margin-left:-1.62em}.markdown{font-family:"Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",'Segoe UI',AppleSDGothicNeo-Medium,'Malgun Gothic',Verdana,Tahoma,sans-serif;padding:20px}.markdown a{text-decoration:none;vertical-align:baseline}.markdown a:hover{text-decoration:underline}.markdown h1{font-size:2.2em;font-weight:700;margin:1.5em 0 1em}.markdown h2{font-size:1.8em;font-weight:700;margin:1.275em 0 .85em}.markdown h3{font-size:1.6em;font-weight:700;margin:1.125em 0 .75em}.markdown h4{font-size:1.4em;font-weight:700;margin:.99em 0 .66em}.markdown h5{font-size:1.2em;font-weight:700;margin:.855em 0 .57em}.markdown h6{font-size:1em;font-weight:700;margin:.75em 0 .5em}.markdown h1+p,.markdown h1:first-child,.markdown h2+p,.markdown h2:first-child,.markdown h3+p,.markdown h3:first-child,.markdown h4+p,.markdown h4:first-child,.markdown h5+p,.markdown h5:first-child,.markdown h6+p,.markdown h6:first-child{margin-top:0}.markdown hr{border:1px solid #ccc}.markdown p{margin:1em 0;word-wrap:break-word}.markdown ol{list-style-type:decimal}.markdown li{display:list-item;line-height:1.4em}.markdown blockquote{margin:1em 20px}.markdown blockquote>:first-child{margin-top:0}.markdown blockquote>:last-child{margin-bottom:0}.markdown blockquote cite:before{content:'\2014 \00A0'}.markdown .code{border-radius:3px;word-wrap:break-word}.markdown pre{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;overflow:auto;padding:.5em}.markdown pre code{border:0;display:block}.markdown pre>code{font-family:Consolas,Inconsolata,Courier,monospace;font-weight:700;white-space:pre;margin:0}.markdown code{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;padding:0 5px;margin:0 2px}.markdown img{max-width:100%}.markdown mark{color:#000;background-color:#fcf8e3}.markdown table{padding:0;border-collapse:collapse;border-spacing:0;margin-bottom:16px}.markdown table tr td,.markdown table tr th{border:1px solid #ccc;margin:0;padding:6px 13px}.markdown table tr th{font-weight:700}.markdown table tr th>:first-child{margin-top:0}.markdown table tr th>:last-child{margin-bottom:0}.markdown table tr td>:first-child{margin-top:0}.markdown table tr td>:last-child{margin-bottom:0}.clearness{padding:20px;color:#737373;font-size:15px;background:#fff;-webkit-font-smoothing:antialiased}.clearness a{color:#1e6ea7}.clearness a:hover{color:#268bd2}.clearness h1,.clearness h2,.clearness h3,.clearness h4,.clearness h5{color:#404040}.clearness h2{border-bottom:1px solid #ccc;line-height:1.7em}.clearness h6{color:#666}.clearness hr{border:1px solid #e6e6e6}.clearness pre>code{font-size:.9em}.clearness blockquote{padding:0 15px;font-style:italic}.clearness blockquote:before{content:"\201C";font-size:40px;margin-left:-20px;color:#aaa}.clearness table{background-color:#fff;border-collapse:separate;border-spacing:2px}.clearness table tr td,.clearness table tr th{border:0;padding:.2em 1em}.clearness table tr th{border-bottom:1px solid #bfbfbf}.clearness table tr td{border-bottom:1px solid #d9d9d9}.clearness table tr:nth-child(2n){background-color:#fff}.hljs{display:block;overflow-x:auto;padding:.5em;background:#eaeef3;-webkit-text-size-adjust:none}.hljs,.hljs-list .hljs-built_in{color:#00193a}.hljs-header,.hljs-important,.hljs-javadoctag,.hljs-keyword,.hljs-request,.hljs-title{font-weight:700}.hljs-chunk,.hljs-comment{color:#738191}.hljs-addition,.hljs-argument,.hljs-blockquote,.hljs-built_in,.hljs-filename,.hljs-header,.hljs-link_label,.hljs-literal,.hljs-parent,.hljs-string,.hljs-tag,.hljs-title,.hljs-value{color:#0048ab}.hljs-attr_selector,.hljs-attribute,.hljs-bullet,.hljs-decorator,.hljs-deletion,.hljs-doctype,.hljs-javadoc,.hljs-link_url,.hljs-phony,.hljs-pi,.hljs-pragma,.hljs-preprocessor,.hljs-prompt,.hljs-regexp,.hljs-shebang,.hljs-sqbracket,.hljs-string .hljs-variable,.hljs-subst,.hljs-symbol,.hljs-xmlDocTag,.hljs-yardoctag{color:#4c81c9}.MathJax_Hover_Frame{border-radius:.25em;-webkit-border-radius:.25em;-moz-border-radius:.25em;-khtml-border-radius:.25em;box-shadow:0 0 15px #83A;-webkit-box-shadow:0 0 15px #83A;-moz-box-shadow:0 0 15px #83A;-khtml-box-shadow:0 0 15px #83A;border:1px solid #A6D!important;display:inline-block;position:absolute}.MathJax_Hover_Arrow{position:absolute;width:15px;height:11px;cursor:pointer}#MathJax_About{position:fixed;left:50%;width:auto;text-align:center;border:3px outset;padding:1em 2em;background-color:#DDD;color:#000;cursor:default;font-family:message-box;font-size:120%;font-style:normal;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-khtml-border-radius:15px;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_Menu{position:absolute;background-color:#fff;color:#000;width:auto;padding:2px;border:1px solid #CCC;margin:0;cursor:default;font:menu;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_MenuItem{padding:2px 2em;background:0 0}.MathJax_MenuArrow{position:absolute;right:.5em;color:#666}.MathJax_MenuActive .MathJax_MenuArrow{color:#fff}.MathJax_MenuArrow.RTL{left:.5em;right:auto}.MathJax_MenuCheck{position:absolute;left:.7em}.MathJax_MenuCheck.RTL{right:.7em;left:auto}.MathJax_MenuRadioCheck{position:absolute;left:1em}.MathJax_MenuRadioCheck.RTL{right:1em;left:auto}.MathJax_MenuLabel{padding:2px 2em 4px 1.33em;font-style:italic}.MathJax_MenuRule{border-top:1px solid #CCC;margin:4px 1px 0}.MathJax_MenuDisabled{color:GrayText}.MathJax_MenuActive{background-color:Highlight;color:HighlightText}.MathJax_Menu_Close{position:absolute;width:31px;height:31px;top:-15px;left:-15px}#MathJax_Zoom{position:absolute;background-color:#F0F0F0;overflow:auto;display:block;z-index:301;padding:.5em;border:1px solid #000;margin:0;font-weight:400;font-style:normal;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;box-shadow:5px 5px 15px #AAA;-webkit-box-shadow:5px 5px 15px #AAA;-moz-box-shadow:5px 5px 15px #AAA;-khtml-box-shadow:5px 5px 15px #AAA;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}#MathJax_ZoomOverlay{position:absolute;left:0;top:0;z-index:300;display:inline-block;width:100%;height:100%;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}#MathJax_ZoomFrame{position:relative;display:inline-block;height:0;width:0}#MathJax_ZoomEventTrap{position:absolute;left:0;top:0;z-index:302;display:inline-block;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}.MathJax_Preview{color:#888}#MathJax_Message{position:fixed;left:1px;bottom:2px;background-color:#E6E6E6;border:1px solid #959595;margin:0;padding:2px 8px;z-index:102;color:#000;font-size:80%;width:auto;white-space:nowrap}#MathJax_MSIE_Frame{position:absolute;top:0;left:0;width:0;z-index:101;border:0;margin:0;padding:0}.MathJax_Error{color:#C00;font-style:italic}footer{position:fixed;font-size:.8em;text-align:right;bottom:0;margin-left:-25px;height:20px;width:100%}</style>
+</head>
+<body class="markdown clearness">
+<font color="black" size="7"><center><strong>基因组比较分析</strong></center></font><font color="black"><center>Author: YangZS</center></font><font color="black"><center>Date: October 15, 2020</center></font><h1 id="目录"><a name="目录" href="#目录"></a>目录</h1><p class="toc" style="undefined"></p><ul>
+<li><ul>
+<li><span class="title">
+<a href="#1.细菌比较基因组学" title="1.细菌比较基因组学">1.细菌比较基因组学</a>
+</span>
+<!--span class="number">
+0
+</span-->
+<ul>
+<li><span class="title">
+<a href="#1.1-比较基因组学基本研究思路" title="1.1 比较基因组学基本研究思路">1.1 比较基因组学基本研究思路</a>
+</span>
+<!--span class="number">
+1
+</span-->
+</li>
+<li><span class="title">
+<a href="#1.2-基因组圈图比较" title="1.2 基因组圈图比较">1.2 基因组圈图比较</a>
+</span>
+<!--span class="number">
+2
+</span-->
+<ul>
+<li><span class="title">
+<a href="#软件的安装：" title="软件的安装：">软件的安装：</a>
+</span>
+<!--span class="number">
+3
+</span-->
+</li>
+<li><span class="title">
+<a href="#简单的应用:" title="简单的应用:">简单的应用:</a>
+</span>
+<!--span class="number">
+4
+</span-->
+<ul>
+<li><span class="title">
+<a href="#详细步骤：" title="详细步骤：">详细步骤：</a>
+</span>
+<!--span class="number">
+5
+</span-->
+</li>
+<li><span class="title">
+<a href="#载入序列文件：" title="载入序列文件：">载入序列文件：</a>
+</span>
+<!--span class="number">
+6
+</span-->
+</li>
+<li><span class="title">
+<a href="#设置环信息：" title="设置环信息：">设置环信息：</a>
+</span>
+<!--span class="number">
+7
+</span-->
+</li>
+<li><span class="title">
+<a href="#添加注释信息：" title="添加注释信息：">添加注释信息：</a>
+</span>
+<!--span class="number">
+8
+</span-->
+</li>
+<li><span class="title">
+<a href="#作图：" title="作图：">作图：</a>
+</span>
+<!--span class="number">
+9
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#1.3-共线性分析" title="1.3 共线性分析">1.3 共线性分析</a>
+</span>
+<!--span class="number">
+10
+</span-->
+<ul>
+<li><ul>
+<li><span class="title">
+<a href="#**打开easyfig**：" title="打开easyfig：">打开easyfig：</a>
+</span>
+<!--span class="number">
+11
+</span-->
+</li>
+<li><span class="title">
+<a href="#**运行**：" title="运行：">运行：</a>
+</span>
+<!--span class="number">
+12
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#1.4-泛基因组学分析" title="1.4 泛基因组学分析">1.4 泛基因组学分析</a>
+</span>
+<!--span class="number">
+13
+</span-->
+<ul>
+<li><span class="title">
+<a href="#基本研究思路：" title="基本研究思路：">基本研究思路：</a>
+</span>
+<!--span class="number">
+14
+</span-->
+</li>
+<li><span class="title">
+<a href="#pan-genome-工具选择" title="pan-genome 工具选择">pan-genome 工具选择</a>
+</span>
+<!--span class="number">
+15
+</span-->
+<ul>
+<li><span class="title">
+<a href="#roary-安装：" title="roary 安装：">roary 安装：</a>
+</span>
+<!--span class="number">
+16
+</span-->
+<ul>
+<li><span class="title">
+<a href="#输入文件:" title="输入文件:">输入文件:</a>
+</span>
+<!--span class="number">
+17
+</span-->
+</li>
+<li><span class="title">
+<a href="#简单使用：" title="简单使用：">简单使用：</a>
+</span>
+<!--span class="number">
+18
+</span-->
+</li>
+<li><span class="title">
+<a href="#roary-输出结果:" title="Roary 输出结果:">Roary 输出结果:</a>
+</span>
+<!--span class="number">
+19
+</span-->
+</li>
+<li><span class="title">
+<a href="#图形输出" title="图形输出">图形输出</a>
+</span>
+<!--span class="number">
+20
+</span-->
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#orthofinder" title="OrthoFinder">OrthoFinder</a>
+</span>
+<!--span class="number">
+21
+</span-->
+<ul>
+<li><span class="title">
+<a href="#安装" title="安装">安装</a>
+</span>
+<!--span class="number">
+22
+</span-->
+</li>
+<li><span class="title">
+<a href="#使用" title="使用">使用</a>
+</span>
+<!--span class="number">
+23
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+</ul>
+<p></p><h2 id="1.细菌比较基因组学"><a name="1.细菌比较基因组学" href="#1.细菌比较基因组学"></a>1.细菌比较基因组学</h2><p>   细菌基因组数据的积累让微生物学家发现了单一菌株的基因组信息并不能完整地表述一个菌种的全部遗传信息和生物学特性。</p><p>   为了更全面地在基因组水平上揭示细菌种内个体间的遗传多样性，进一步探寻个体间的系统发生关系和个体间表型差异的遗传基础，为基因功能分析、微生物的环境适应性、病原菌的致病和耐药机制研究提供丰富的理论与数据支持，比较基因组学逐渐成为研究者们对细菌基因组研究领域关注的重点之一。</p><h3 id="1.1-比较基因组学基本研究思路"><a name="1.1-比较基因组学基本研究思路" href="#1.1-比较基因组学基本研究思路"></a>1.1 比较基因组学基本研究思路</h3><p>   <strong>比较基因组学</strong>是指在基因组图谱和序列分析的基础上，对已知基因和基因的结构进行比较，了解基因的功能，表达调控机制和物种进化过程的学科。一般包括以下几个方面的内容：</p><p>   （1） 和近缘物种进行成对基因组比对。可以利用两基因组之间编码顺序上和结构上的同源性，通过已知基因组的作图信息定位另外基因组中的基因，从而揭示基因潜在的功能及基因组的内在结构的变化。</p><p>   （2） 和近缘物种进行多基因组比对。当在两种以上的基因组间进行序列比较时，实质上就得到了序列在系统发生树中的进化关系。基因组信息的增多使得在基因组水平上研究分子进化、基因功能成为可能。通过对多种生物基因组数据及其垂直进化、水平演化过程进行研究，就可以对与生命至关重要的基因的结构及其调控作用有所了解。</p><h3 id="1.2-基因组圈图比较"><a name="1.2-基因组圈图比较" href="#1.2-基因组圈图比较"></a>1.2 基因组圈图比较</h3><p>   原核生物基因组比较结果可视化能够很好的展示同源关系较为密切的的物种基因组之间的差异。大量研究中，采用圈图展示基因组比较结果信息已经成为一种强有力的研究手段。BRIG软件帮你轻松搞定直观地展示基因组结构之间的相似性。这种图形可以作为一种探索性的数据分析手段使用，在一些表型不同的菌株当中可以使用这种图形比较发现<strong>遗传特征的位置</strong>，进而进一步详细分分析</p><center><img src="md_fig/%E5%9C%88%E5%9B%BE%E6%AF%94%E8%BE%83example.jpg" style="zoom:70%"></center><font color="black"><center>19种猪罗伊氏乳杆菌菌株的圈图比较（Lee, J. et al. Microb Ecol 2017）</center></font><h4 id="软件的安装："><a name="软件的安装：" href="#软件的安装："></a>软件的安装：</h4><p>一定要先安装Java,<strong>JAVA下载地址：</strong></p><p><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a></p><p><strong>Blast+的下载</strong></p><p>   Blast+程序下载: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ 根据平台进行选择安装, 例如mac的dmg版本, win的-win64.exe. Mac安装后再/usr/local/ncbi/blast<br>   安装后可以在终端（win 的cmd ）中运行 <code>blastn -h</code>，出现帮助信息即可（出现报错信息，可能需要将安装路径加入环境变量）：</p><pre><code data-origin="<pre><code>USAGE
+  blastn [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-task task_name] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-taxids taxids] [-negative_taxids taxids] [-taxidlist filename]
+    [-negative_taxidlist filename] [-entrez_query entrez_query]
+    [-db_soft_mask filtering_algorithm] [-db_hard_mask filtering_algorithm]
+    [-subject subject_input_file] [-subject_loc range] [-query input_file]
+    [-out output_file] [-evalue evalue] [-word_size int_value]
+    [-gapopen open_penalty] [-gapextend extend_penalty]
+    [-perc_identity float_value] [-qcov_hsp_perc float_value]
+    [-max_hsps int_value] [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value] [-penalty penalty]
+    [-reward reward] [-no_greedy] [-min_raw_gapped_score int_value]
+    [-template_type type] [-template_length int_value] [-dust DUST_options]
+    [-filtering_db filtering_database]
+    [-window_masker_taxid window_masker_taxid]
+    [-window_masker_db window_masker_db] [-soft_masking soft_masking]
+    [-ungapped] [-culling_limit int_value] [-best_hit_overhang float_value]
+    [-best_hit_score_edge float_value] [-subject_besthit]
+    [-window_size int_value] [-off_diagonal_range int_value]
+    [-use_index boolean] [-index_name string] [-lcase_masking]
+    [-query_loc range] [-strand strand] [-parse_deflines] [-outfmt format]
+    [-show_gis] [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-sorthits sort_hits]
+    [-sorthsps sort_hsps] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-remote] [-version]
+DESCRIPTION
+   Nucleotide-Nucleotide BLAST 2.x.x+
+
+Use '-help' to print detailed descriptions of command line arguments
+</code></pre>">USAGE
+  blastn [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-task task_name] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-taxids taxids] [-negative_taxids taxids] [-taxidlist filename]
+    [-negative_taxidlist filename] [-entrez_query entrez_query]
+    [-db_soft_mask filtering_algorithm] [-db_hard_mask filtering_algorithm]
+    [-subject subject_input_file] [-subject_loc range] [-query input_file]
+    [-out output_file] [-evalue evalue] [-word_size int_value]
+    [-gapopen open_penalty] [-gapextend extend_penalty]
+    [-perc_identity float_value] [-qcov_hsp_perc float_value]
+    [-max_hsps int_value] [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value] [-penalty penalty]
+    [-reward reward] [-no_greedy] [-min_raw_gapped_score int_value]
+    [-template_type type] [-template_length int_value] [-dust DUST_options]
+    [-filtering_db filtering_database]
+    [-window_masker_taxid window_masker_taxid]
+    [-window_masker_db window_masker_db] [-soft_masking soft_masking]
+    [-ungapped] [-culling_limit int_value] [-best_hit_overhang float_value]
+    [-best_hit_score_edge float_value] [-subject_besthit]
+    [-window_size int_value] [-off_diagonal_range int_value]
+    [-use_index boolean] [-index_name string] [-lcase_masking]
+    [-query_loc range] [-strand strand] [-parse_deflines] [-outfmt format]
+    [-show_gis] [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-sorthits sort_hits]
+    [-sorthsps sort_hsps] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-remote] [-version]
+DESCRIPTION
+   Nucleotide-Nucleotide BLAST 2.x.x+
+
+Use '-help' to print detailed descriptions of command line arguments
+</code></pre><p>BRIG下载地址：<br><a href="http://sourceforge.net/projects/brig/">http://sourceforge.net/projects/brig/</a><br>   BRIG软件解压后即可使用，JAVA和BLAST+则与其他桌面软件一样，简单安装后即可使用。</p><h4 id="简单的应用:"><a name="简单的应用:" href="#简单的应用:"></a>简单的应用:</h4><p>所需的序列以fasta和gb格式为主哦，可以在NCBI上下载。</p><h5 id="详细步骤："><a name="详细步骤：" href="#详细步骤："></a>详细步骤：</h5><p>   解压BRIG-x.xx-dist.zip，双击BRIG.jar，运行BRIG。通过 <code>Preferences</code> &gt; <code>BRIG options</code>，设置blast+软件路径(添加到环境变量中后不需设置)，点击<code>save setting as default</code>.</p><center><img src="md_fig/BRIG_%E8%AE%BE%E7%BD%AEblast%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84.jpg" style="zoom:70%"></center><font color="black"><center>BRIG_设置blast安装路径.jpg</center></font><h5 id="载入序列文件："><a name="载入序列文件：" href="#载入序列文件："></a>载入序列文件：</h5><p>   选择载入参考基因组，设置输入文件夹和输出文件夹，单击<code>Addto data pool</code>将输入文件夹中的序列添加到BRIGdata pool，单击 next。下方框内，可看见添加的文件都有那些：</p><center><img src="md_fig/BRIG_%E5%BA%8F%E5%88%97%E5%AF%BC%E5%85%A5_%E8%AE%BE%E7%BD%AE_1.jpg" style="zoom:70%"></center><font color="black"><center>BRIG_序列导入，设置输出文件夹</center></font><h5 id="设置环信息："><a name="设置环信息：" href="#设置环信息："></a>设置环信息：</h5><p>   设置每一圈信息<code>Add new ring</code>添加圈，选中 data pool 中的数据，单击 <code>Add data</code>，添加选中的序列，之后添加注释信息,一般首环是参考基因组，<code>Data shown on this ring</code> 里面也是相应的序列，这里要在在最外一圈加上参考基因组的注释信息。</p><center><img src="md_fig/BRIG_%E8%AE%BE%E7%BD%AE%E7%8E%AF%E4%BF%A1%E6%81%AF.jpg" style="zoom:70%"></center><font color="black"><center>BRIG_设置环信息</center></font><h5 id="添加注释信息："><a name="添加注释信息：" href="#添加注释信息："></a>添加注释信息：</h5><p>   点击 <code>Add custom feature</code> 可以给当前选定的环添加注释信息。可以用于显示需要凸显的基因组区域的相关基因信息。</p><center><img src="md_fig/BRIG_%E8%AE%BE%E7%BD%AE%E7%8E%AF%E6%B3%A8%E9%87%8A%E4%BF%A1%E6%81%AF.jpg" style="zoom:70%"></center><font color="black"><center>BRIG_设置环注释信息</center></font><h5 id="作图："><a name="作图：" href="#作图："></a>作图：</h5><p>   输入输出图形的文件名，选择图片格式，点击 <code>Submit</code> ，一切正常的话就开始运行比对程序，最后完成。在输出文件夹中可以看见图形：</p><center><img src="md_fig/BRIG_%E4%BD%9C%E5%9B%BE.jpg" style="zoom:70%"></center><font color="black"><center>BRIG_提交作图</center></font><center><img src="md_fig/BRIG_%E4%BD%9C%E5%9B%BE_out.jpg" style="zoom:50%"></center><font color="black"><center>BRIG_输出图形</center></font><hr class="page"><h3 id="1.3-共线性分析"><a name="1.3-共线性分析" href="#1.3-共线性分析"></a>1.3 共线性分析</h3><p>   微生物由于具有基因的横向转移能力，基因簇或者基因会在演化过程中移动或重组，这些进往往带来新的遗传特性。在这种具有特殊功能的遗传片段研究中，通常涉及探究来源或者存在的普遍性。当我们使用比对工具在数据库中找到一些相似性较高的序列片段后，就往往会使用<strong>共线性分析</strong>来可视化这种共有或转移关系。如图：</p><center><img src="md_fig/easyfig_example.jpg" style="zoom:50%"></center><font color="black"><center>tmexCD1-toprJ1与密切相关序列遗传背景的比较（Luchao et al. mBio  2020）</center></font><p>    目标序列通常是具有生物学意义的一段多基因片段，比如耐药基因簇，生物固氮基因簇，O抗原合成基因簇等，相关序列通常是使用NCBI blast工具在NT数据库取比对得到（一条或多条）。<br>    相似性关系的可视化我们是使用的是easyfig，这是一个强大且易用的工具，他的基本原理是使用blast将待比对的序列进行比对，得到相似性相关的信息。然后基于基因注释信息将这种相似性可视化成上面的样子。而且这是一个界面化程序支持linux，window，和mac 系统；你只需要在官网（ <a href="https://mjsull.github.io/Easyfig/">https://mjsull.github.io/Easyfig/</a> ）上下载对应的安装包安装就可以了（实例使用win演示），需要提前安装本地版blast工具（详细配置过程）。</p><p> <strong>easyfig安装</strong>：<br>   easyfig 只需要在官网（ <a href="https://mjsull.github.io/Easyfig/files.html">https://mjsull.github.io/Easyfig/files.html</a> ）上下载对应的安装包正常安装就可以了。</p><center><img src="md_fig/easyfig_home.jpg" style="zoom:50%"></center><font color="black"><center>easyfig下载</center></font><p> <strong>数据准备</strong>：<br>   easyfig 输入数据的格式是带注释信息的<code>gbk</code>文件，因此我们的核酸序列需要注释得到gbk（使用 <strong>prokka</strong> 注释可以得到，<strong>patric</strong> 在线注释网站也行）。</p><center><img src="md_fig/easyfig_input.jpg" style="zoom:100%"></center><font color="black"><center>easyfig输入文件格式</center></font><p><br></p><h5 id="**打开easyfig**："><a name="**打开easyfig**：" href="#**打开easyfig**："></a><strong>打开easyfig</strong>：</h5><p>可以看到输入文件显示区域，blast结果显示区域，运行状态栏，输出图形文件路径格式按钮等。</p><center><img src="md_fig/easyfig_UI.jpg" style="zoom:70%"></center><font color="black"><center>easyfig主界面</center></font><h5 id="**运行**："><a name="**运行**：" href="#**运行**："></a><strong>运行</strong>：</h5><ul>
+<li>第一步，添加注释文件,点击 <code>Add featur file</code> 在选中需要比较的gbk文件，点击打开，逐个添加gbk文件。</li></ul><center><img src="md_fig/easyfig_run_1.jpg" style="zoom:70%"></center><font color="black"><center> 逐个添加gbk文件</center></font><ul>
+<li>点击 <code>Add folder</code> 再选择存放 全部gbk文件的文件夹 </li></ul><center><img src="md_fig/easyfig_run_1_1.jpg" style="zoom:70%"></center><font color="black"><center> 文件夹添加gbk文件 </center></font><ul>
+<li>点击 <code>Generate blastn Files</code> 选择blast临时文件夹（建议新建一个文件夹 <code>tem</code> 用于存放blas比对的临时文件）</li></ul><center><img src="md_fig/easyfig_run_2_blast.jpg" style="zoom:70%"></center><font color="black"><center> 选择blast临时文件夹 </center></font><center><img src="md_fig/easyfig_run_2_blast_ok.jpg" style="zoom:70%"></center><font color="black"><center> blast比对完成 </center></font><ul>
+<li>点击 <code>Save As</code> 选择图片输出文件夹输入文件名，选择输出文件格式bmp或svg，bmp是位图，清晰度有限，只能使用ps调整美化，svg是矢量图方便后续美化，使用AI软件可以对其颜色大小进行进一步的调整，达到更好的效果。</li></ul><center><img src="md_fig/easyfig_run_out_ok.jpg" style="zoom:70%"></center><font color="black"><center> 选择图片格式，生成图片 </center></font><ul>
+<li>结果图片：</li></ul><center><img src="md_fig/easyfig_run_out_fig.jpg" style="zoom:70%"></center><font color="black"><center> 结果图片 </center></font><ul>
+<li>图形调整参数可以由配置文件导入（<strong>需要自行保存的</strong> ）：</li></ul><center><img src="md_fig/easyfig_UI%E5%AF%BC%E5%85%A5%E9%85%8D%E7%BD%AE.jpg" style="zoom:70%"></center><font color="black"><center> easyfig 导入配置 </center></font><hr class="page"><h3 id="1.4-泛基因组学分析"><a name="1.4-泛基因组学分析" href="#1.4-泛基因组学分析"></a>1.4 泛基因组学分析</h3><p>   近些年来，随着生物信息学的不断深入、分子生物学技术的迅猛发展及二代测序和三代测序平台等高通量测序技术的飞跃，细菌全基因组测序日益完善，完成一个细菌全基因组的费用变得非常低廉，时间也变得非常短，公共数据库中全基因组的数据也是飞速增长。随着数据的增多，研究发现<strong>细菌各菌株基因组间存在着丰富的遗传多样性</strong>，有资料表明，某一细菌株的基因组有20% DNA 序列为该株系所特有。</p><p>   2005年，PNAS 上的一项对株B群链球菌（GBS）的基因组序列的研究，通过数学模型估算，研究者推测每完成1个新菌株的测序就会有约33个新基因将被发现，即使是数以千计的基因组测序。因此，该项研究几乎得出了一个让人吃惊的结果 —“<strong>细菌基因组数量可能是无限的</strong>”。为了更准确地描述一种细菌基因组的全部信息，Tettelin和他的同事们于2005年首次提出了<strong>泛基因组</strong>的概念。</p><p>   <strong>泛基因组</strong>是指同种细菌不同菌株<strong>所有遗传信息的集合</strong>， 可分为<strong>核心基因组</strong>（coregenome）和<strong>附属基因组</strong>（accessory genome）和<strong>特有基因集</strong>（unique genes）部分，其中核心基因组 是包括了一个细菌种内绝大多数菌株中都存在的所 有基因，这些基因决定了这一细菌种内几乎所有个体都具有的基本功能和表型特征，如病原菌的感染以及在自然宿主细胞内存活、繁殖和复制等。</p><center><img src="md_fig/pan_genome_1.jpg" style="zoom:70%"></center><font color="black"><center> pan-genome 示意图 </center></font><ul>
+<li><strong>核心基因组</strong>中的基因多数为<strong>信息基因和管家基因</strong>， 代表着生命活动所必需的代谢和功能， 决定着基因的复制、转录和翻译功能，指导着细胞膜、调节因子、转运 和锚定蛋白等的生物学功能。正是基于这些特征，使得对核心基因组的分析研究在科学研究上具有非 同寻常的意义， 引起了越来越多研究者的兴趣，在具有交叉免疫保护性疫苗候选蛋白的确定、分型基因筛选以及探究个体间系统发生关系等方面都发挥了重要作用。（ZHUANG et al. 2012）</li><li><strong>附属基因组</strong>可能包含补充作用的生化途径，提供了一些<strong>选择性优势</strong>，例如环境适应性，特异性毒力或抗生素抗性。（Tina, Methods in Molecular Biology，2018）</li><li><strong>特有基因</strong>往往是某个菌株在演化近期才获得的基因，这些基因多数是基因横向转移产生，并且还没有在群体中传播开来特有基因的产生为菌株的演化适应提供了丰富的遗传材料，对于新的适应能力的产生有极大作用。</li></ul><h4 id="基本研究思路："><a name="基本研究思路：" href="#基本研究思路："></a>基本研究思路：</h4><ol>
+<li>同源基因（簇，家族）鉴定<ul>
+<li>直系同源基因在很大程度上保留了相同的生物学功能。</li><li>旁系同源物，基因组内复制生成（多拷贝），在功能上趋于分歧。</li></ul>
+</li><li>泛基因组构建<ul>
+<li>整合全部同源基因簇（多保留直系同源）形成完整的pan-genome。</li></ul>
+</li><li>下游分析<ul>
+<li>核心基因的多序列比对</li><li>系统发育树的构建</li><li>泛基因组大小的估计</li><li>可视化等。</li></ul>
+</li></ol><h4 id="pan-genome-工具选择"><a name="pan-genome-工具选择" href="#pan-genome-工具选择"></a>pan-genome 工具选择</h4><p>   研究表明，错误聚集的基因的比例随着泛基因组数据集的多样性而增加。我们运行的Roary的序列一致性阈值为<code>-i 70</code>和<code>-i 50</code>。 在低分集下，<code>panX</code>和<code>Roary</code>（<code>-i 70</code>）表现出相似的准确性，并且仅生成少于 <code>0.01%</code> 的错误同源簇。 在高度多样性的情况下，所有工具的聚类准确性都相似，并且错误聚类了10％的基因。<br>   针对多样性高于 <code>0.02</code> 的情况显示针对高多样性数据集（远缘生物）设计的工具（如 <code>OrthoMCL</code> <code>和OrthoFinder</code>）的聚类结果。<br>   工具选择标准：</p><ul>
+<li>近缘物种（多样性低）：panX, <strong>Roary(推荐)</strong></li><li>远缘物种（多样性高）：OrthoMCL, <strong>OrthoFinder（推荐）</strong></li></ul><center><img src="md_fig/pan_genome_2_%E5%B7%A5%E5%85%B7%E9%80%89%E6%8B%A9.jpg" style="zoom:70%"></center><font color="black"><center> pan-genome 工具选择 </center></font><font color="black"><center> (Ding Wei, PAN-GENOME ANALYSIS, VISUALIZATION AND EXPLORATION, 2018)</center></font><h5 id="roary-安装："><a name="roary-安装：" href="#roary-安装："></a>roary 安装：</h5><p>   Roary是一款由 Sanger Institute 主导开发的，可以快速地对大规模原核生物基因组进行泛基因组分析的软件。其优点在于可以在短时间内对数千规模的微生物基因组进行泛基因组分析。<br>主页：<a href="https://sanger-pathogens.github.io/Roary/">https://sanger-pathogens.github.io/Roary/</a></p><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>source ~/anaconda3/bin/activate bioinfo 
+#检索roary版本
+conda search roary
+#安装最新版
+conda install -y roary
+#获取帮助 测试安装
+roary -h
+#安装 R 用于图形绘制
+conda install -y R
+#安装R package
+#进入R命令行
+R
+</code></pre>"><span class="hljs-built_in">source</span> ~/anaconda3/bin/activate bioinfo 
+<span class="hljs-comment">#检索roary版本</span>
+conda search roary
+<span class="hljs-comment">#安装最新版</span>
+conda install -y roary
+<span class="hljs-comment">#获取帮助 测试安装</span>
+roary -h
+<span class="hljs-comment">#安装 R 用于图形绘制</span>
+conda install -y R
+<span class="hljs-comment">#安装R package</span>
+<span class="hljs-comment">#进入R命令行</span>
+R
+</code></pre><p>R语言命令行界面安R装绘图包 <code>ggplot2</code>：</p><pre><code class="rcript" data-origin="<pre><code class=&quot;Rcript&quot;>#安装ggplot2
+install.packages('ggplot2')
+#需要选择镜像，选择china 的 15至21
+#--- Please select a CRAN mirror for use in this session ---
+#Secure CRAN mirrors
+#
+# 1: 0-Cloud [https]
+# 2: Australia (Canberra) [https]
+# 3: Australia (Melbourne 1) [https]
+# 4: Australia (Melbourne 2) [https]
+#...
+#13: Bulgaria [https]
+#14: Chile (Santiago) [https]
+#15: China (Beijing 2) [https]
+#16: China (Hong Kong) [https]
+#17: China (Guangzhou) [https]
+#18: China (Lanzhou) [https]
+#19: China (Nanjing) [https]
+#20: China (Shanghai 1) [https]
+#21: China (Shanghai 2) [https]
+#22: Costa Rica [https]
+#...
+
+#退出R 
+
+q()
+Save workspace image? [y/n/c]: n
+</code></pre>">#安装ggplot2
+install.packages('ggplot2')
+#需要选择镜像，选择china 的 15至21
+#--- Please select a CRAN mirror for use in this session ---
+#Secure CRAN mirrors
+#
+# 1: 0-Cloud [https]
+# 2: Australia (Canberra) [https]
+# 3: Australia (Melbourne 1) [https]
+# 4: Australia (Melbourne 2) [https]
+#...
+#13: Bulgaria [https]
+#14: Chile (Santiago) [https]
+#15: China (Beijing 2) [https]
+#16: China (Hong Kong) [https]
+#17: China (Guangzhou) [https]
+#18: China (Lanzhou) [https]
+#19: China (Nanjing) [https]
+#20: China (Shanghai 1) [https]
+#21: China (Shanghai 2) [https]
+#22: Costa Rica [https]
+#...
+
+#退出R 
+
+q()
+Save workspace image? [y/n/c]: n
+</code></pre><center><img src="md_fig/pan_genome_3.jpg" style="zoom:70%"></center><font color="black"><center> roary conda版本 </center></font><center><img src="md_fig/pan_genome_3_2.jpg" style="zoom:50%"></center><font color="black"><center>roary 帮助信息 </center></font><center><img src="md_fig/pan_genome_4.jpg" style="zoom:70%"></center><font color="black"><center> R安装ggplot2用于作图 </center></font><h6 id="输入文件:"><a name="输入文件:" href="#输入文件:"></a>输入文件:</h6><p>   Roary要求输入文件必须是 <strong>GFF3</strong> 文件(.gff)，<strong>且文件的最后要有FASTA格式的全基因组信息</strong>。而在Genbank中的.gff文件只有注释信息，缺少基因组序列。因此需要下载.gbff格式的文件，利用bp_genbank2gff3.pl脚本将其转化成gff文件，即可作为Roary的输入文件。由于需要统一注释方法，以及统一结果形式等原因，<strong>建议统一使用prokka注释结果中的gff文件作为输入</strong>。</p><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>
+#转换ncbi gbk文件到roary输入需要的gff文件
+# bp_genbank2gff3.pl 已经在roary安装时一并安装。
+bp_genbank2gff3.pl genbank.gbk 
+#ncbi 的gbk压缩格式也可以
+bp_genbank2gff3.pl *gbk.gz
+</code></pre>">
+<span class="hljs-comment">#转换ncbi gbk文件到roary输入需要的gff文件</span>
+<span class="hljs-comment"># bp_genbank2gff3.pl 已经在roary安装时一并安装。</span>
+bp_genbank2gff3.pl genbank.gbk 
+<span class="hljs-comment">#ncbi 的gbk压缩格式也可以</span>
+bp_genbank2gff3.pl *gbk.gz
+</code></pre><center><img src="md_fig/pan_genome_5.jpg" style="zoom:70%"></center><font color="black"><center> Roary输入文件：*.gff </center></font><h6 id="简单使用："><a name="简单使用：" href="#简单使用："></a>简单使用：</h6><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>#示例：
+#roary -e --mafft -p 8 *.gff
+#实例：
+cd ~
+mkdir  -p data/pangenome/roary_gff
+# 上传gff文件到roart_gff中
+cd  ~/data/pangenome/
+# *.gff文件保存于一个文件夹里（例如roart_gff）
+roary -e --mafft -p 8 -r  -i 95 -cd 100 -f out_result roary_gff/*.gff 
+#重要参数：
+#    -e --mafft    使用mafft 进行核心基因的比对并生成多核心基因比对文件（后续进化分析使用）
+#    -p 8    使用线程数 8 ，加快运算（量力而行）
+#    -r         使用R及ggplot2 绘制泛基因组相关可视化结果
+#    -i 95    同源基因簇的聚类一致性阈值 默认九十五
+#    -cd 100 核心基因判断标准，在100%的菌株中存在的基因才认为是核心基因，默认99%。
+#            分析菌株数量大于100时必须为100，结果图像会出错
+#    -f out_result 指定结果输出文件夹
+#    roart_gff/*.gff 所有用于泛基因组分析的菌株的gff注释文件。
+
+
+# 进入结果目录
+cd out_result
+# 核心基因表
+query_pan_genome -a intersection   -o core_genes_list.xls ../roary_gff/*.gff  
+# 所有菌株的同源基因簇表
+query_pan_genome -a union  -o union_list.xls ../roary_gff/*.gff 
+# 表格格式化
+perl -p -i -e 's/: /\t/g' union_list.xls core_genes_list.xls
+</code></pre>"><span class="hljs-comment">#示例：</span>
+<span class="hljs-comment">#roary -e --mafft -p 8 *.gff</span>
+<span class="hljs-comment">#实例：</span>
+<span class="hljs-built_in">cd</span> ~
+mkdir  -p data/pangenome/roary_gff
+<span class="hljs-comment"># 上传gff文件到roart_gff中</span>
+<span class="hljs-built_in">cd</span>  ~/data/pangenome/
+<span class="hljs-comment"># *.gff文件保存于一个文件夹里（例如roart_gff）</span>
+roary <span class="hljs-operator">-e</span> --mafft -p <span class="hljs-number">8</span> -r  -i <span class="hljs-number">95</span> -cd <span class="hljs-number">100</span> <span class="hljs-operator">-f</span> out_result roary_gff/*.gff 
+<span class="hljs-comment">#重要参数：</span>
+<span class="hljs-comment">#    -e --mafft    使用mafft 进行核心基因的比对并生成多核心基因比对文件（后续进化分析使用）</span>
+<span class="hljs-comment">#    -p 8    使用线程数 8 ，加快运算（量力而行）</span>
+<span class="hljs-comment">#    -r         使用R及ggplot2 绘制泛基因组相关可视化结果</span>
+<span class="hljs-comment">#    -i 95    同源基因簇的聚类一致性阈值 默认九十五</span>
+<span class="hljs-comment">#    -cd 100 核心基因判断标准，在100%的菌株中存在的基因才认为是核心基因，默认99%。</span>
+<span class="hljs-comment">#            分析菌株数量大于100时必须为100，结果图像会出错</span>
+<span class="hljs-comment">#    -f out_result 指定结果输出文件夹</span>
+<span class="hljs-comment">#    roart_gff/*.gff 所有用于泛基因组分析的菌株的gff注释文件。</span>
+
+
+<span class="hljs-comment"># 进入结果目录</span>
+<span class="hljs-built_in">cd</span> out_result
+<span class="hljs-comment"># 核心基因表</span>
+query_pan_genome <span class="hljs-operator">-a</span> intersection   -o core_genes_list.xls ../roary_gff/*.gff  
+<span class="hljs-comment"># 所有菌株的同源基因簇表</span>
+query_pan_genome <span class="hljs-operator">-a</span> union  -o union_list.xls ../roary_gff/*.gff 
+<span class="hljs-comment"># 表格格式化</span>
+perl -p -i <span class="hljs-operator">-e</span> <span class="hljs-string">'s/: /\t/g'</span> union_list.xls core_genes_list.xls
+</code></pre><h6 id="roary-输出结果:"><a name="roary-输出结果:" href="#roary-输出结果:"></a>Roary 输出结果:</h6><center><img src="md_fig/pan_genome_6_%E7%BB%93%E6%9E%9C.jpg" style="zoom:70%"></center><font color="black"><center> Roary结果文件</center></font><p><strong>结果文件内容解释：</strong></p><table>
+<thead>
+<tr>
+<th>文件</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>accessory_binary_genes.fa</td>
+<td>依据附属基因存在与否的二进制</td>
+</tr>
+<tr>
+<td>accessory_binary_genes.fa.newick</td>
+<td>依据附属基因存在与否的二进制文件构建的发育树</td>
+</tr>
+<tr>
+<td>clustered_proteins</td>
+<td>同源蛋白簇文件</td>
+</tr>
+<tr>
+<td>core_gene_alignment.aln</td>
+<td>核心基因组多基因比对文件</td>
+</tr>
+<tr>
+<td>core_genes_list.tab</td>
+<td>核心基因表（<strong>重要</strong>）</td>
+</tr>
+<tr>
+<td>gene_presence_absence.csv</td>
+<td>同源基因簇在各菌株中存在缺失情况表</td>
+</tr>
+<tr>
+<td>pan_genome_reference.fa</td>
+<td>泛基因组参考序列</td>
+</tr>
+<tr>
+<td>Rplots.pdf</td>
+<td>泛基因组相关可视化结果（<strong>基本会用到的结果都在这里</strong>）</td>
+</tr>
+<tr>
+<td>summary_statistics.txt</td>
+<td>泛基因组各部分基因数量概览信息</td>
+</tr>
+<tr>
+<td>union_list.tab</td>
+<td>所有菌株的同源基因簇表（<strong>重要</strong>）</td>
+</tr>
+</tbody>
+</table><p>其中union_list.tab为表格文件，包含泛基因组各个同源簇在全部菌株中的存在情况，后续的分析基本会按照这个文件来，包括统计相关信息，提取基因序列等</p><p><strong>主要的图形结果 Rplots.pdf：</strong></p><center><img src="md_fig/pan_genome_6_%E7%BB%93%E6%9E%9Cplot.jpg" style="zoom:70%"></center><font color="black"><center> Roary结果文件<code>Rplots.pdf</code></center></font><h6 id="图形输出"><a name="图形输出" href="#图形输出"></a>图形输出</h6><p>这里提供两个额外的 roary 结果可视化包不是roary默认安装的，需要上传到运行环境；<br>在本教程的software &gt; roary_script 文件夹下可以找到这两个可视化脚本：<br><code>roary2svg.pl</code><br><code>roary_plots.py</code></p><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>
+#运行这两个脚本需要安装一些依赖
+#安装python 依赖包（bioinfo环境下）
+pip install matplotlib
+pip install Biopython
+pip install seaborn
+
+#绘制pangenom几个结果图形
+#当前执行目录为out_result 包含accessory_binary_genes.fa.newick gene_presence_absence.csv文件 
+# ../../software/roary_script/roary_plots.py 为 roary_plots.py的相对路径根据你放置的位置可能会变化
+
+../../software/roary_script/roary_plots.py --labels --format pdf accessory_binary_genes.fa.newick gene_presence_absence.csv
+
+#输入文件newick 格式的进化树文件节点名称需要和gene_presence_absence.csv中的菌株名称相同
+# accessory_binary_genes.fa.newick        newick 格式的进化树文件
+# gene_presence_absence.csv                泛基因组基因存在缺失表格文件
+
+#结果生成三个pdf文件：
+# pangenome_frequency.pdf
+# pangenome_matrix.pdf
+# pangenome_pie.pdf
+
+#基因存在缺失矩阵图 pan_genome.svg  格式
+../../software/roary_script/roary2svg.pl gene_presence_absence.csv &amp;gt; pan_genome.svg
+</code></pre>">
+<span class="hljs-comment">#运行这两个脚本需要安装一些依赖</span>
+<span class="hljs-comment">#安装python 依赖包（bioinfo环境下）</span>
+pip install matplotlib
+pip install Biopython
+pip install seaborn
+
+<span class="hljs-comment">#绘制pangenom几个结果图形</span>
+<span class="hljs-comment">#当前执行目录为out_result 包含accessory_binary_genes.fa.newick gene_presence_absence.csv文件 </span>
+<span class="hljs-comment"># ../../software/roary_script/roary_plots.py 为 roary_plots.py的相对路径根据你放置的位置可能会变化</span>
+
+../../software/roary_script/roary_plots.py --labels --format pdf accessory_binary_genes.fa.newick gene_presence_absence.csv
+
+<span class="hljs-comment">#输入文件newick 格式的进化树文件节点名称需要和gene_presence_absence.csv中的菌株名称相同</span>
+<span class="hljs-comment"># accessory_binary_genes.fa.newick        newick 格式的进化树文件</span>
+<span class="hljs-comment"># gene_presence_absence.csv                泛基因组基因存在缺失表格文件</span>
+
+<span class="hljs-comment">#结果生成三个pdf文件：</span>
+<span class="hljs-comment"># pangenome_frequency.pdf</span>
+<span class="hljs-comment"># pangenome_matrix.pdf</span>
+<span class="hljs-comment"># pangenome_pie.pdf</span>
+
+<span class="hljs-comment">#基因存在缺失矩阵图 pan_genome.svg  格式</span>
+../../software/roary_script/roary2svg.pl gene_presence_absence.csv &gt; pan_genome.svg
+</code></pre><center><img src="md_fig/pan_genome_7_%E5%8F%AF%E8%A7%86%E5%8C%96.jpg" style="zoom:70%"></center><font color="black"><center> <code>roary_plots.py</code>生成的Roary图形结果文件</center></font><p><br></p><center><img src="md_fig/pan_genome_8_%E5%8F%AF%E8%A7%86%E5%8C%96.jpg" style="zoom:70%"></center><font color="black"><center> <code>roary2svg.pl</code> 生成的Roary基因存在缺失矩阵图结果图片 <code>pan_genome.svg</code> </center></font><p><strong>花瓣图：</strong><br>用于表示各个菌株的核心基因以及特有基因的数量,利用自己编写的R脚本绘制<code>flower_plot.R</code>，输入文件为<code>pan_stata.txt</code>，名称不能改变，需要和 flower_plot.R 在同一目录，其内容为</p><center><img src="md_fig/pan_genome_9_pan_flower_intab.jpg" style="zoom:70%"></center><font color="black"><center> <code>pan_flower.pdf</code>输入文件<code>pan_stata.txt</code> 格式 </center></font><p><br></p><center><img src="md_fig/pan_genome_9_pan_flower.jpg" style="zoom:70%"></center><font color="black"><center> Roary结果文件<code>pan_flower.pdf</code></center></font><p><br></p><hr class="page"><h5 id="orthofinder"><a name="orthofinder" href="#orthofinder"></a>OrthoFinder</h5><p><strong>OrthoFinder</strong> 主要功能是能够快速的聚类直系同源基因簇。并建立基因树，物种树。</p><h6 id="安装"><a name="安装" href="#安装"></a>安装</h6><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>#在家目录下创建一个目录用于存放软件
+cd ~ &amp;amp;&amp;amp; mkdir software
+cd  software
+
+#上传OrthoFinder.tar.gz或者在终端下载 OrthoFinder.tar.gz
+wget https://github.com/davidemms/OrthoFinder/releases/latest/download/OrthoFinder.tar.gz
+#cd 到你下载的目录 （例如当前目录）
+tar -zxvf OrthoFinder.tar.gz
+cd OrthoFinder 
+# 修改执行权限
+chmod +x bin/* orthofinder 
+#测试
+./orthofinder -h
+</code></pre>"><span class="hljs-comment">#在家目录下创建一个目录用于存放软件</span>
+<span class="hljs-built_in">cd</span> ~ &amp;&amp; mkdir software
+<span class="hljs-built_in">cd</span>  software
+
+<span class="hljs-comment">#上传OrthoFinder.tar.gz或者在终端下载 OrthoFinder.tar.gz</span>
+wget https://github.com/davidemms/OrthoFinder/releases/latest/download/OrthoFinder.tar.gz
+<span class="hljs-comment">#cd 到你下载的目录 （例如当前目录）</span>
+tar -zxvf OrthoFinder.tar.gz
+<span class="hljs-built_in">cd</span> OrthoFinder 
+<span class="hljs-comment"># 修改执行权限</span>
+chmod +x bin/* orthofinder 
+<span class="hljs-comment">#测试</span>
+./orthofinder -h
+</code></pre><center><img src="md_fig/orthofinder_1_help.jpg" style="zoom:70%"></center><font color="black"><center> orthofinder help info </center></font><h6 id="使用"><a name="使用" href="#使用"></a>使用</h6><pre class="bash hljs"><code class="bash" data-origin="<pre><code class=&quot;bash&quot;>#只需要提供一个 包含蛋白文件的文件夹 OrthoFinder_faa/ 
+#查看OrthoFinder_faa 目录内容
+mkdir -p ~/data/OrthoFinder/OrthoFinder_faa
+cd ~/data/OrthoFinder/
+
+ls OrthoFinder_faa
+
+#10_KLR2004.gbk_out.faa
+#11_KLR2006.gbk_out.faa
+#1_LTR1318.gbk_out.faa
+#2_ATG-F4.gbk_out.faa
+#3_C93.gbk_out.faa
+#5_DS14_10.gbk_out.faa
+#6_IRT.gbk_out.faa
+#7_KLR2007.gbk_out.faa
+#8_KLR2008.gbk_out.faa
+#9_KLR1001.gbk_out.faa
+
+#运行 orthofinder  ../software/OrthoFinder/orthofinder 为 orthofinder 的相对路径
+~/software/OrthoFinder/orthofinder -t 8 -f OrthoFinder_faa/ -o orthofinder_out
+
+    # -t 10 10 线程
+    # -f OrthoFinder_faa    输入文件目录OrthoFinder_faa
+    # -o orthofinder_out    结果输出目录orthofinder_out
+</code></pre>"><span class="hljs-comment">#只需要提供一个 包含蛋白文件的文件夹 OrthoFinder_faa/ </span>
+<span class="hljs-comment">#查看OrthoFinder_faa 目录内容</span>
+mkdir -p ~/data/OrthoFinder/OrthoFinder_faa
+<span class="hljs-built_in">cd</span> ~/data/OrthoFinder/
+
+ls OrthoFinder_faa
+
+<span class="hljs-comment">#10_KLR2004.gbk_out.faa</span>
+<span class="hljs-comment">#11_KLR2006.gbk_out.faa</span>
+<span class="hljs-comment">#1_LTR1318.gbk_out.faa</span>
+<span class="hljs-comment">#2_ATG-F4.gbk_out.faa</span>
+<span class="hljs-comment">#3_C93.gbk_out.faa</span>
+<span class="hljs-comment">#5_DS14_10.gbk_out.faa</span>
+<span class="hljs-comment">#6_IRT.gbk_out.faa</span>
+<span class="hljs-comment">#7_KLR2007.gbk_out.faa</span>
+<span class="hljs-comment">#8_KLR2008.gbk_out.faa</span>
+<span class="hljs-comment">#9_KLR1001.gbk_out.faa</span>
+
+<span class="hljs-comment">#运行 orthofinder  ../software/OrthoFinder/orthofinder 为 orthofinder 的相对路径</span>
+~/software/OrthoFinder/orthofinder -t <span class="hljs-number">8</span> <span class="hljs-operator">-f</span> OrthoFinder_faa/ -o orthofinder_out
+
+    <span class="hljs-comment"># -t 10 10 线程</span>
+    <span class="hljs-comment"># -f OrthoFinder_faa    输入文件目录OrthoFinder_faa</span>
+    <span class="hljs-comment"># -o orthofinder_out    结果输出目录orthofinder_out</span>
+</code></pre><center><img src="md_fig/orthofinder_2_input.jpg" style="zoom:70%"></center><font color="black"><center> orthofinder 输入 </center></font><p>泛基因组需要的结果</p><ul>
+<li>Orthogroups    同源基因簇的表格文件:<br>  data/OrthoFinder_out/Results_Oct19/Orthogroups/Orthogroups.tsv</li></ul><center><img src="md_fig/orthofinder_3_output.jpg" style="zoom:70%"></center><font color="black"><center> orthofinder 输出 同源基因簇的表格文件 <code>Orthogroups.tsv</code></center></font><ul>
+<li><p>Orthogroup_Sequences    同源基因簇对应的序列文件(fasta格式)<br>  data/OrthoFinder_out/Results_Oct19/Orthogroup_Sequences/OG*.fa</p>
+</li><li><p>Resolved_Gene_Trees    每个同源基因簇的基因的发育树文件（nwk格式）<br>   data/OrthoFinder_out/Results_Oct19/Resolved_Gene_Trees/OG*_tree.txt</p>
+</li></ul><p>严格意义上来讲，orthofinder 算不上是泛基因组的构建软件，应该说是进化分析的软件，其能够将亲缘关系较远的物种进行同源基因（蛋白）的聚类。在多物种演化研究的时候能够快熟找到物种间的同源序列，此作用可用于构建进化时的靶基因选择。比如使用 <code>Orthogroup_Sequences</code> 中的同源基因序列构建进化树。或者联合多个基因建树。</p><p>依据其结果中的同源基因簇在不同物种（菌株 ）间的存在缺失情况表格文件，可以得到<strong>类似</strong>核心基因组，泛基因组，特有基因的概念，<strong>但是必须注意</strong>的是，orthofinder 的聚类算法在高多样性（例如不同种属）的细菌基因组的聚类效果较好；对于同一物种时聚类错误率较高。所以建议<strong>不使用这个来进行真实的泛基因组构建</strong>。</p>
+
+<footer style="position:fixed; font-size:.8em; text-align:right; bottom:0px; margin-left:-25px; height:20px; width:100%;">generated by <a href="http://pad.haroopress.com" target="_blank">haroopad</a></footer>
+</body>
+</html>

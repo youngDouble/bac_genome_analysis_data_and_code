@@ -1,0 +1,1190 @@
+2020/10/16 21:41:56
+free memory: 258,107
+2020/10/16 21:41:56
+allocated memory: 260,096
+2020/10/16 21:41:56
+max memory: 4,157,440
+2020/10/16 21:41:56
+total free memory: 4,155,451
+2020/10/16 21:41:56
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+</BRIG>
+
+2020/10/16 21:42:14
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+</BRIG>
+
+2020/10/16 21:42:35
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+</BRIG>
+
+2020/10/16 21:42:46
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+</BRIG>
+
+2020/10/16 21:42:46
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="null" />
+</BRIG>
+
+2020/10/16 21:42:46
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="null" />
+</BRIG>
+
+2020/10/16 21:42:49
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="null" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn" />
+</BRIG>
+
+2020/10/16 21:42:49
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="null" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn" />
+</BRIG>
+
+2020/10/16 21:42:55
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:42:55
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:42:57
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:42:57
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="null" position="1" />
+</BRIG>
+
+2020/10/16 21:42:57
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="null" position="1" />
+</BRIG>
+
+2020/10/16 21:43:06
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:06
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:07
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:07
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="null" position="2" />
+</BRIG>
+
+2020/10/16 21:43:07
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="null" position="2" />
+</BRIG>
+
+2020/10/16 21:43:11
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:11
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:21
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="3" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:21
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="3" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:28
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:28
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="null" position="3" />
+</BRIG>
+
+2020/10/16 21:43:28
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="null" position="3" />
+</BRIG>
+
+2020/10/16 21:43:34
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:34
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:36
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:36
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+  <ring colour="49,34,221" name="null" position="4" />
+</BRIG>
+
+2020/10/16 21:43:36
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+  <ring colour="49,34,221" name="null" position="4" />
+</BRIG>
+
+2020/10/16 21:43:41
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+  <ring colour="49,34,221" name="5" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:41
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+  <ring colour="49,34,221" name="5" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:43
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+  <ring colour="49,34,221" name="5" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:43:43
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+  <ring colour="49,34,221" name="5" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+  </ring>
+</BRIG>
+
+2020/10/16 21:45:31
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes" outputFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\1_LTR1318.gbk" title="out" imageFormat="svg" queryFastaFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\1_LTR1318.gbk.fna">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="2000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+  </ring>
+  <ring colour="49,34,221" name="5" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <feature label="potD" colour="red" decoration="arc">
+      <featureRange start="18953" stop="20026" label="18953" />
+    </feature>
+    <feature label="potD" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="18953" stop="20026" />
+    </feature>
+    <feature label="ydcV" colour="red" decoration="arc">
+      <featureRange start="20023" stop="20841" />
+    </feature>
+    <feature label="ydcV" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="20023" stop="20841" />
+    </feature>
+    <feature label="potB" colour="red" decoration="arc">
+      <featureRange start="20841" stop="21647" />
+    </feature>
+    <feature label="potB" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="20841" stop="21647" />
+    </feature>
+    <feature label="potA" colour="red" decoration="arc">
+      <featureRange start="21647" stop="22738" />
+    </feature>
+    <feature label="potA" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="21647" stop="22738" />
+    </feature>
+    <feature label="pepX" colour="red" decoration="arc">
+      <featureRange start="22878" stop="25280" />
+    </feature>
+    <feature label="pepX" colour="red" decoration="clockwise-arrow">
+      <featureRange start="22878" stop="25280" />
+    </feature>
+    <feature label="fpaP" colour="red" decoration="arc">
+      <featureRange start="25381" stop="26292" />
+    </feature>
+    <feature label="fpaP" colour="red" decoration="clockwise-arrow">
+      <featureRange start="25381" stop="26292" />
+    </feature>
+    <feature label="ctpF" colour="red" decoration="arc">
+      <featureRange start="26528" stop="29191" />
+    </feature>
+    <feature label="ctpF" colour="red" decoration="clockwise-arrow">
+      <featureRange start="26528" stop="29191" />
+    </feature>
+    <feature label="dps" colour="red" decoration="arc">
+      <featureRange start="29334" stop="29801" />
+    </feature>
+    <feature label="dps" colour="red" decoration="clockwise-arrow">
+      <featureRange start="29334" stop="29801" />
+    </feature>
+  </ring>
+</BRIG>
+
+2020/10/16 21:53:39
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes" outputFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\1_LTR1318.gbk" title="out" imageFormat="svg" queryFastaFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\1_LTR1318.gbk.fna" cgXML="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\1_LTR1318.gbk.xml">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="3000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\1_LTR1318.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\2_ATG-F4.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\3_C93.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+  </ring>
+  <ring colour="49,34,221" name="5" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\5_DS14_10.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+    <feature label="potD" colour="red" decoration="arc">
+      <featureRange start="18953" stop="20026" label="18953" />
+    </feature>
+    <feature label="potD" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="18953" stop="20026" />
+    </feature>
+    <feature label="ydcV" colour="red" decoration="arc">
+      <featureRange start="20023" stop="20841" />
+    </feature>
+    <feature label="ydcV" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="20023" stop="20841" />
+    </feature>
+    <feature label="potB" colour="red" decoration="arc">
+      <featureRange start="20841" stop="21647" />
+    </feature>
+    <feature label="potB" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="20841" stop="21647" />
+    </feature>
+    <feature label="potA" colour="red" decoration="arc">
+      <featureRange start="21647" stop="22738" />
+    </feature>
+    <feature label="potA" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="21647" stop="22738" />
+    </feature>
+    <feature label="pepX" colour="red" decoration="arc">
+      <featureRange start="22878" stop="25280" />
+    </feature>
+    <feature label="pepX" colour="red" decoration="clockwise-arrow">
+      <featureRange start="22878" stop="25280" />
+    </feature>
+    <feature label="fpaP" colour="red" decoration="arc">
+      <featureRange start="25381" stop="26292" />
+    </feature>
+    <feature label="fpaP" colour="red" decoration="clockwise-arrow">
+      <featureRange start="25381" stop="26292" />
+    </feature>
+    <feature label="ctpF" colour="red" decoration="arc">
+      <featureRange start="26528" stop="29191" />
+    </feature>
+    <feature label="ctpF" colour="red" decoration="clockwise-arrow">
+      <featureRange start="26528" stop="29191" />
+    </feature>
+    <feature label="dps" colour="red" decoration="arc">
+      <featureRange start="29334" stop="29801" />
+    </feature>
+    <feature label="dps" colour="red" decoration="clockwise-arrow">
+      <featureRange start="29334" stop="29801" />
+    </feature>
+  </ring>
+</BRIG>
+
+2020/10/16 21:55:56
+<?xml version="1.0" encoding="UTF-8"?>
+<BRIG blastOptions="" legendPosition="upper-right" queryFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" outputFolder="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out" blastPlus="yes" outputFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\1_LTR1318.gbk" title="out" imageFormat="png" queryFastaFile="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\1_LTR1318.gbk.fna" cgXML="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\1_LTR1318.gbk.xml">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="3000" zeroTickColor="black" tickLength="medium" />
+  <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
+  <special value="GC Content" />
+  <special value="GC Skew" />
+  <refDir location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK">
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\10_KLR2004.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\11_KLR2006.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\6_IRT.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\7_KLR2007.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\8_KLR2008.gbk" />
+    <refFile location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\9_KLR1001.gbk" />
+  </refDir>
+  <ring position="0" colour="172,14,225" name="gc" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="GC Skew" />
+  </ring>
+  <ring colour="172,14,225" name="1" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\1_LTR1318.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\1_LTR1318.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+  </ring>
+  <ring colour="222,149,220" name="2" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\2_ATG-F4.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\2_ATG-F4.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+  </ring>
+  <ring colour="161,221,231" name="3" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\3_C93.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\3_C93.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+  </ring>
+  <ring colour="49,34,221" name="5" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK\5_DS14_10.gbk" blastResults="G:\Analysis_assistance\20201005_bac_genome_analysis\03_Comparative_genomics\data\BRIG_sapiens_GBK_out\scratch\5_DS14_10.gbk.fnaVs1_LTR1318.gbk.fna.tab" />
+    <feature label="potD" colour="red" decoration="arc">
+      <featureRange start="18953" stop="20026" label="18953" />
+    </feature>
+    <feature label="potD" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="18953" stop="20026" />
+    </feature>
+    <feature label="ydcV" colour="red" decoration="arc">
+      <featureRange start="20023" stop="20841" />
+    </feature>
+    <feature label="ydcV" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="20023" stop="20841" />
+    </feature>
+    <feature label="potB" colour="red" decoration="arc">
+      <featureRange start="20841" stop="21647" />
+    </feature>
+    <feature label="potB" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="20841" stop="21647" />
+    </feature>
+    <feature label="potA" colour="red" decoration="arc">
+      <featureRange start="21647" stop="22738" />
+    </feature>
+    <feature label="potA" colour="red" decoration="counterclockwise-arrow">
+      <featureRange start="21647" stop="22738" />
+    </feature>
+    <feature label="pepX" colour="red" decoration="arc">
+      <featureRange start="22878" stop="25280" />
+    </feature>
+    <feature label="pepX" colour="red" decoration="clockwise-arrow">
+      <featureRange start="22878" stop="25280" />
+    </feature>
+    <feature label="fpaP" colour="red" decoration="arc">
+      <featureRange start="25381" stop="26292" />
+    </feature>
+    <feature label="fpaP" colour="red" decoration="clockwise-arrow">
+      <featureRange start="25381" stop="26292" />
+    </feature>
+    <feature label="ctpF" colour="red" decoration="arc">
+      <featureRange start="26528" stop="29191" />
+    </feature>
+    <feature label="ctpF" colour="red" decoration="clockwise-arrow">
+      <featureRange start="26528" stop="29191" />
+    </feature>
+    <feature label="dps" colour="red" decoration="arc">
+      <featureRange start="29334" stop="29801" />
+    </feature>
+    <feature label="dps" colour="red" decoration="clockwise-arrow">
+      <featureRange start="29334" stop="29801" />
+    </feature>
+  </ring>
+</BRIG>
+
